@@ -1,0 +1,7 @@
+
+*.tlog
+*.obj
+*.pdb
+frameworks/runtime-src/proj.win32/.vs/TotalWars/v14/.suo
+*.opensdf
+*.sdf

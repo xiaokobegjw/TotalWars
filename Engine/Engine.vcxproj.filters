@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{bbac235d-ead5-4d1d-a5c1-4b5f76b8278b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threading">
+      <UniqueIdentifier>{8f5a4257-9d2e-4d58-a1a0-abcfc2e39660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math2d">
+      <UniqueIdentifier>{e8575e38-3948-4d7d-a2f3-6f527c029dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittest">
+      <UniqueIdentifier>{d885f3d5-def8-4f38-96af-cf3c1042ec5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\time_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h" />
+    <ClInclude Include="exceptions.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="threading\mutex_auto_lock.h">
+      <Filter>threading</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="utils\strfnd.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\string_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\hex.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="math2d\math2d.h">
+      <Filter>math2d</Filter>
+    </ClInclude>
+    <ClInclude Include="math2d\mathutil.h">
+      <Filter>math2d</Filter>
+    </ClInclude>
+    <ClInclude Include="math2d\matrix2d.h">
+      <Filter>math2d</Filter>
+    </ClInclude>
+    <ClInclude Include="math2d\transformations.h">
+      <Filter>math2d</Filter>
+    </ClInclude>
+    <ClInclude Include="math2d\vector2d.h">
+      <Filter>math2d</Filter>
+    </ClInclude>
+    <ClInclude Include="filesys.h" />
+    <ClInclude Include="utils\macros.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="unittest\test.h">
+      <Filter>unittest</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApp.h" />
+    <ClInclude Include="unittest\test_settings.h">
+      <Filter>unittest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="utils\string_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="math2d\mathutil.cpp">
+      <Filter>math2d</Filter>
+    </ClCompile>
+    <ClCompile Include="math2d\vector2d.cpp">
+      <Filter>math2d</Filter>
+    </ClCompile>
+    <ClCompile Include="filesys.cpp" />
+    <ClCompile Include="unittest\test.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApp.cpp" />
+    <ClCompile Include="unittest\test_settings.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\time_utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="math2d\mathutil.inl">
+      <Filter>math2d</Filter>
+    </None>
+  </ItemGroup>
+</Project>

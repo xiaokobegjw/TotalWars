@@ -1,0 +1,1442 @@
+﻿Build started 2021/7/8 14:15:39.
+     1>Project "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\libcocos2d.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\box2d" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\sqlite3\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\unzip" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\edtaa3func" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\tinyxml2" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\png\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\jpeg\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\tiff\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\webp\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\OpenalSoft\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\MP3Decoder\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\OggDecoder\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\icon\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\zlib\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\chipmunk\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\xxhash" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\ConvertUTF" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\curl\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\websockets\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\poly2tri\common" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\poly2tri\sweep" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\poly2tri" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos\editor-support" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform\win8.1-universal" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\extensions" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external/bullet/include/bullet" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external/bullet/include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos/editor-support" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\openssl\include\win32" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _USRDLL /D _DEBUG /D _WINDOWS /D _LIB /D LWS_DLL /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USE3DDLL /D _EXPORT_DLL_ /D _USRSTUDIODLL /D _USREXDLL /D _USEGUIDLL /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D PROTOBUF_USE_DLLS /D LIBPROTOBUF_EXPORTS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\\" /Fd"Debug.win32\vc140.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt "..\..\extensions\assets-manager\AssetsManager.cpp" "..\..\extensions\assets-manager\AssetsManagerEx.cpp" "..\..\extensions\assets-manager\CCEventAssetsManagerEx.cpp" "..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp" "..\..\extensions\assets-manager\Manifest.cpp" ..\..\extensions\GUI\CCControlExtension\CCControl.cpp ..\..\extensions\GUI\CCControlExtension\CCControlButton.cpp ..\..\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp ..\..\extensions\GUI\CCControlExtension\CCControlHuePicker.cpp ..\..\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp ..\..\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp ..\..\extensions\GUI\CCControlExtension\CCControlSlider.cpp ..\..\extensions\GUI\CCControlExtension\CCControlStepper.cpp ..\..\extensions\GUI\CCControlExtension\CCControlSwitch.cpp ..\..\extensions\GUI\CCControlExtension\CCControlUtils.cpp ..\..\extensions\GUI\CCControlExtension\CCInvocation.cpp ..\..\extensions\GUI\CCScrollView\CCScrollView.cpp ..\..\extensions\GUI\CCScrollView\CCTableView.cpp ..\..\extensions\GUI\CCScrollView\CCTableViewCell.cpp ..\..\extensions\Particle3D\CCParticle3DAffector.cpp ..\..\extensions\Particle3D\CCParticle3DEmitter.cpp ..\..\extensions\Particle3D\CCParticle3DRender.cpp ..\..\extensions\Particle3D\CCParticleSystem3D.cpp ..\..\extensions\Particle3D\PU\CCPUAffector.cpp ..\..\extensions\Particle3D\PU\CCPUAffectorManager.cpp ..\..\extensions\Particle3D\PU\CCPUAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUAlignAffector.cpp ..\..\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBaseCollider.cpp ..\..\extensions\Particle3D\PU\CCPUBaseColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBaseForceAffector.cpp ..\..\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBeamRender.cpp ..\..\extensions\Particle3D\PU\CCPUBehaviour.cpp ..\..\extensions\Particle3D\PU\CCPUBehaviourManager.cpp ..\..\extensions\Particle3D\PU\CCPUBehaviourTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBillboardChain.cpp ..\..\extensions\Particle3D\PU\CCPUBoxCollider.cpp ..\..\extensions\Particle3D\PU\CCPUBoxColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBoxEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUCircleEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.cpp ..\..\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUColorAffector.cpp ..\..\extensions\Particle3D\PU\CCPUColorAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoExpireEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoScaleEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp ..\..\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUEmitterManager.cpp ..\..\extensions\Particle3D\PU\CCPUEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUEventHandlerManager.cpp ..\..\extensions\Particle3D\PU\CCPUEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUFlockCenteringAffector.cpp ..\..\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUForceField.cpp ..\..\extensions\Particle3D\PU\CCPUForceFieldAffector.cpp ..\..\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUGeometryRotator.cpp ..\..\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUGravityAffector.cpp ..\..\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUInterParticleCollider.cpp ..\..\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUJetAffector.cpp ..\..\extensions\Particle3D\PU\CCPUJetAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPULineAffector.cpp ..\..\extensions\Particle3D\PU\CCPULineAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPULinearForceAffector.cpp ..\..\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPULineEmitter.cpp ..\..\extensions\Particle3D\PU\CCPULineEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUListener.cpp ..\..\extensions\Particle3D\PU\CCPUMaterialManager.cpp ..\..\extensions\Particle3D\PU\CCPUMaterialTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUNoise.cpp ..\..\extensions\Particle3D\PU\CCPUObserver.cpp ..\..\extensions\Particle3D\PU\CCPUObserverManager.cpp ..\..\extensions\Particle3D\PU\CCPUObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnClearObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnCollisionObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnCountObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnEmissionObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnEventFlagObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnExpireObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnPositionObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnQuotaObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnRandomObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnTimeObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnVelocityObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUParticleFollower.cpp ..\..\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUParticleSystem3D.cpp ..\..\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPathFollower.cpp ..\..\extensions\Particle3D\PU\CCPUPathFollowerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPlane.cpp ..\..\extensions\Particle3D\PU\CCPUPlaneCollider.cpp ..\..\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPointEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUPointEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPositionEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPURandomiser.cpp ..\..\extensions\Particle3D\PU\CCPURandomiserTranslator.cpp ..\..\extensions\Particle3D\PU\CCPURender.cpp ..\..\extensions\Particle3D\PU\CCPURendererTranslator.cpp ..\..\extensions\Particle3D\PU\CCPURibbonTrail.cpp ..\..\extensions\Particle3D\PU\CCPURibbonTrailRender.cpp ..\..\extensions\Particle3D\PU\CCPUScaleAffector.cpp ..\..\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUScaleVelocityAffector.cpp ..\..\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUScriptCompiler.cpp ..\..\extensions\Particle3D\PU\CCPUScriptLexer.cpp ..\..\extensions\Particle3D\PU\CCPUScriptParser.cpp ..\..\extensions\Particle3D\PU\CCPUScriptTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSimpleSpline.cpp ..\..\extensions\Particle3D\PU\CCPUSineForceAffector.cpp ..\..\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveBehaviour.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSphere.cpp ..\..\extensions\Particle3D\PU\CCPUSphereCollider.cpp ..\..\extensions\Particle3D\PU\CCPUSphereColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTechniqueTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureAnimator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureRotator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTranslateManager.cpp ..\..\extensions\Particle3D\PU\CCPUUtil.cpp ..\..\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.cpp ..\..\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUVertexEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUVortexAffector.cpp ..\..\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp "..\..\extensions\physics-nodes\CCPhysicsDebugNode.cpp" "..\..\extensions\physics-nodes\CCPhysicsSprite.cpp" ..\..\external\clipper\clipper.cpp ..\..\external\ConvertUTF\ConvertUTF.c ..\..\external\ConvertUTF\ConvertUTFWrapper.cpp ..\..\external\edtaa3func\edtaa3func.cpp ..\..\external\flatbuffers\idl_gen_cpp.cpp ..\..\external\flatbuffers\idl_gen_fbs.cpp ..\..\external\flatbuffers\idl_gen_general.cpp ..\..\external\flatbuffers\idl_gen_go.cpp ..\..\external\flatbuffers\idl_gen_text.cpp ..\..\external\flatbuffers\idl_parser.cpp ..\..\external\md5\md5.c ..\..\external\poly2tri\common\shapes.cc ..\..\external\poly2tri\sweep\advancing_front.cc ..\..\external\poly2tri\sweep\cdt.cc ..\..\external\poly2tri\sweep\sweep.cc ..\..\external\poly2tri\sweep\sweep_context.cc ..\..\external\tinyxml2\tinyxml2.cpp ..\..\external\unzip\ioapi_mem.cpp ..\..\external\unzip\ioapi.cpp ..\..\external\unzip\unzip.cpp ..\..\external\xxhash\xxhash.c ..\3d\CCAABB.cpp ..\3d\CCAnimate3D.cpp ..\3d\CCAnimation3D.cpp ..\3d\CCAttachNode.cpp ..\3d\CCBillBoard.cpp ..\3d\CCBundle3D.cpp ..\3d\CCBundleReader.cpp ..\3d\CCFrustum.cpp ..\3d\CCMesh.cpp ..\3d\CCMeshSkin.cpp ..\3d\CCMeshVertexIndexData.cpp ..\3d\CCMotionStreak3D.cpp ..\3d\CCOBB.cpp ..\3d\CCObjLoader.cpp ..\3d\CCPlane.cpp ..\3d\CCRay.cpp ..\3d\CCSkeleton3D.cpp ..\3d\CCSkybox.cpp ..\3d\CCSprite3D.cpp ..\3d\CCSprite3DMaterial.cpp ..\3d\CCTerrain.cpp ..\audio\AudioEngine.cpp ..\audio\win32\AudioCache.cpp ..\audio\win32\AudioDecoder.cpp ..\audio\win32\AudioDecoderManager.cpp ..\audio\win32\AudioDecoderMp3.cpp ..\audio\win32\AudioDecoderOgg.cpp "..\audio\win32\AudioEngine-win32.cpp" ..\audio\win32\AudioPlayer.cpp ..\audio\win32\MciPlayer.cpp ..\audio\win32\SimpleAudioEngine.cpp ..\base\allocator\CCAllocatorDiagnostics.cpp ..\base\allocator\CCAllocatorGlobal.cpp ..\base\allocator\CCAllocatorGlobalNewDelete.cpp ..\base\atitc.cpp ..\base\base64.cpp ..\base\CCAsyncTaskPool.cpp ..\base\CCAutoreleasePool.cpp ..\base\ccCArray.cpp ..\base\CCConfiguration.cpp ..\base\CCConsole.cpp ..\base\CCController.cpp "..\base\CCController-linux-win32.cpp" ..\base\CCData.cpp ..\base\CCDataVisitor.cpp ..\base\CCDirector.cpp ..\base\CCEvent.cpp ..\base\CCEventAcceleration.cpp ..\base\CCEventController.cpp ..\base\CCEventCustom.cpp ..\base\CCEventDispatcher.cpp ..\base\CCEventFocus.cpp ..\base\CCEventKeyboard.cpp ..\base\CCEventListener.cpp ..\base\CCEventListenerAcceleration.cpp ..\base\CCEventListenerController.cpp ..\base\CCEventListenerCustom.cpp ..\base\CCEventListenerFocus.cpp ..\base\CCEventListenerKeyboard.cpp ..\base\CCEventListenerMouse.cpp ..\base\CCEventListenerTouch.cpp ..\base\CCEventMouse.cpp ..\base\CCEventTouch.cpp ..\base\ccFPSImages.c ..\base\CCIMEDispatcher.cpp ..\base\CCNinePatchImageParser.cpp ..\base\CCStencilStateManager.cpp ..\base\CCNS.cpp ..\base\CCProfiling.cpp ..\base\CCProperties.cpp ..\base\ccRandom.cpp ..\base\CCRef.cpp ..\base\CCScheduler.cpp ..\base\CCScriptSupport.cpp ..\base\CCTouch.cpp ..\base\ccTypes.cpp ..\base\CCUserDefault.cpp ..\base\ccUTF8.cpp ..\base\ccUtils.cpp ..\base\CCValue.cpp ..\base\etc1.cpp ..\base\pvr.cpp ..\base\ObjectFactory.cpp ..\base\s3tc.cpp ..\base\TGAlib.cpp ..\base\ZipUtils.cpp ..\cocos2d.cpp ..\deprecated\CCArray.cpp ..\deprecated\CCDeprecated.cpp ..\deprecated\CCDictionary.cpp ..\deprecated\CCNotificationCenter.cpp ..\deprecated\CCSet.cpp ..\deprecated\CCString.cpp "..\editor-support\cocosbuilder\CCBAnimationManager.cpp" "..\editor-support\cocosbuilder\CCBFileLoader.cpp" "..\editor-support\cocosbuilder\CCBKeyframe.cpp" "..\editor-support\cocosbuilder\CCBReader.cpp" "..\editor-support\cocosbuilder\CCBSequence.cpp" "..\editor-support\cocosbuilder\CCBSequenceProperty.cpp" "..\editor-support\cocosbuilder\CCControlButtonLoader.cpp" "..\editor-support\cocosbuilder\CCControlLoader.cpp" "..\editor-support\cocosbuilder\CCLabelBMFontLoader.cpp" "..\editor-support\cocosbuilder\CCLabelTTFLoader.cpp" "..\editor-support\cocosbuilder\CCLayerColorLoader.cpp" "..\editor-support\cocosbuilder\CCLayerGradientLoader.cpp" "..\editor-support\cocosbuilder\CCLayerLoader.cpp" "..\editor-support\cocosbuilder\CCMenuItemImageLoader.cpp" "..\editor-support\cocosbuilder\CCMenuItemLoader.cpp" "..\editor-support\cocosbuilder\CCNode+CCBRelativePositioning.cpp" "..\editor-support\cocosbuilder\CCNodeLoader.cpp" "..\editor-support\cocosbuilder\CCNodeLoaderLibrary.cpp" "..\editor-support\cocosbuilder\CCParticleSystemQuadLoader.cpp" "..\editor-support\cocosbuilder\CCScale9SpriteLoader.cpp" "..\editor-support\cocosbuilder\CCScrollViewLoader.cpp" "..\editor-support\cocosbuilder\CCSpriteLoader.cpp" "..\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp" "..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp" "..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCBoneNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCFrame.cpp" "..\editor-support\cocostudio\ActionTimeline\CCSkeletonNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCSkinNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCTimeLine.cpp" "..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp" "..\editor-support\cocostudio\CCActionFrame.cpp" "..\editor-support\cocostudio\CCActionFrameEasing.cpp" "..\editor-support\cocostudio\CCActionManagerEx.cpp" "..\editor-support\cocostudio\CCActionNode.cpp" "..\editor-support\cocostudio\CCActionObject.cpp" "..\editor-support\cocostudio\CCArmature.cpp" "..\editor-support\cocostudio\CCArmatureAnimation.cpp" "..\editor-support\cocostudio\CCArmatureDataManager.cpp" "..\editor-support\cocostudio\CCArmatureDefine.cpp" "..\editor-support\cocostudio\CCBatchNode.cpp" "..\editor-support\cocostudio\CCBone.cpp" "..\editor-support\cocostudio\CCColliderDetector.cpp" "..\editor-support\cocostudio\CCComAttribute.cpp" "..\editor-support\cocostudio\CCComAudio.cpp" "..\editor-support\cocostudio\CCComController.cpp" "..\editor-support\cocostudio\CCComRender.cpp" "..\editor-support\cocostudio\CCDataReaderHelper.cpp" "..\editor-support\cocostudio\CCDatas.cpp" "..\editor-support\cocostudio\CCDecorativeDisplay.cpp" "..\editor-support\cocostudio\CCDisplayFactory.cpp" "..\editor-support\cocostudio\CCDisplayManager.cpp" "..\editor-support\cocostudio\CCInputDelegate.cpp" "..\editor-support\cocostudio\CCComExtensionData.cpp" "..\editor-support\cocostudio\CCProcessBase.cpp" "..\editor-support\cocostudio\CCSGUIReader.cpp" "..\editor-support\cocostudio\CCSkin.cpp" "..\editor-support\cocostudio\CCSpriteFrameCacheHelper.cpp" "..\editor-support\cocostudio\CCSSceneReader.cpp" "..\editor-support\cocostudio\CCTransformHelp.cpp" "..\editor-support\cocostudio\CCTween.cpp" "..\editor-support\cocostudio\CCUtilMath.cpp" "..\editor-support\cocostudio\CocoLoader.cpp" "..\editor-support\cocostudio\CocoStudio.cpp" "..\editor-support\cocostudio\DictionaryHelper.cpp" "..\editor-support\cocostudio\FlatBuffersSerialize.cpp" "..\editor-support\cocostudio\LocalizationManager.cpp" "..\editor-support\cocostudio\TriggerBase.cpp" "..\editor-support\cocostudio\TriggerMng.cpp" "..\editor-support\cocostudio\TriggerObj.cpp" "..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp" "..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp" "..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp" "..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp" "..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp" "..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp" "..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp" "..\editor-support\cocostudio\WidgetReader\NodeReaderDefine.cpp" "..\editor-support\cocostudio\WidgetReader\NodeReaderProtocol.cpp" "..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp" "..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp" "..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp" "..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp" "..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp" "..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp" ..\math\CCAffineTransform.cpp ..\math\CCGeometry.cpp ..\math\CCVertex.cpp ..\math\Mat4.cpp ..\math\MathUtil.cpp ..\math\Quaternion.cpp ..\math\TransformUtils.cpp ..\math\Vec2.cpp ..\math\Vec3.cpp ..\math\Vec4.cpp ..\navmesh\CCNavMesh.cpp ..\navmesh\CCNavMeshAgent.cpp ..\navmesh\CCNavMeshDebugDraw.cpp ..\navmesh\CCNavMeshObstacle.cpp ..\navmesh\CCNavMeshUtils.cpp "..\network\CCDownloader-curl.cpp" ..\network\CCDownloader.cpp ..\network\HttpClient.cpp ..\network\SocketIO.cpp ..\network\Uri.cpp ..\network\WebSocket.cpp ..\physics3d\CCPhysics3D.cpp ..\physics3d\CCPhysics3DComponent.cpp ..\physics3d\CCPhysics3DConstraint.cpp ..\physics3d\CCPhysics3DDebugDrawer.cpp ..\physics3d\CCPhysics3DObject.cpp ..\physics3d\CCPhysics3DShape.cpp ..\physics3d\CCPhysics3DWorld.cpp ..\physics3d\CCPhysicsSprite3D.cpp ..\physics\CCPhysicsBody.cpp ..\physics\CCPhysicsContact.cpp ..\physics\CCPhysicsJoint.cpp ..\physics\CCPhysicsShape.cpp ..\physics\CCPhysicsWorld.cpp ..\platform\CCFileUtils.cpp ..\platform\CCGLView.cpp ..\platform\CCImage.cpp ..\platform\CCSAXParser.cpp ..\platform\CCThread.cpp "..\platform\desktop\CCGLViewImpl-desktop.cpp" "..\platform\win32\CCApplication-win32.cpp" "..\platform\win32\CCCommon-win32.cpp" "..\platform\win32\CCDevice-win32.cpp" "..\platform\win32\CCFileUtils-win32.cpp" "..\platform\win32\CCStdC-win32.cpp" "..\platform\win32\CCUtils-win32.cpp" ..\renderer\CCBatchCommand.cpp ..\renderer\CCCustomCommand.cpp ..\renderer\CCFrameBuffer.cpp ..\renderer\CCGLProgram.cpp ..\renderer\CCGLProgramCache.cpp ..\renderer\CCGLProgramState.cpp ..\renderer\CCGLProgramStateCache.cpp ..\renderer\ccGLStateCache.cpp ..\renderer\CCGroupCommand.cpp ..\renderer\CCMaterial.cpp ..\renderer\CCMeshCommand.cpp ..\renderer\CCPass.cpp ..\renderer\CCPrimitive.cpp ..\renderer\CCPrimitiveCommand.cpp ..\renderer\CCQuadCommand.cpp ..\renderer\CCRenderCommand.cpp ..\renderer\CCRenderer.cpp ..\renderer\CCRenderState.cpp ..\renderer\ccShaders.cpp ..\renderer\CCTechnique.cpp ..\renderer\CCTexture2D.cpp ..\renderer\CCTextureAtlas.cpp ..\renderer\CCTextureCache.cpp ..\renderer\CCTextureCube.cpp ..\renderer\CCTrianglesCommand.cpp ..\renderer\CCVertexAttribBinding.cpp ..\renderer\CCVertexIndexBuffer.cpp ..\renderer\CCVertexIndexData.cpp "..\storage\local-storage\LocalStorage.cpp" ..\ui\CocosGUI.cpp ..\ui\UIButton.cpp ..\ui\UIAbstractCheckButton.cpp ..\ui\UICheckBox.cpp "..\ui\UIEditBox\UIEditBoxImpl-common.cpp" ..\ui\UIRadioButton.cpp ..\ui\UIDeprecated.cpp ..\ui\UIEditBox\UIEditBox.cpp "..\ui\UIEditBox\UIEditBoxImpl-win32.cpp" ..\ui\UIHBox.cpp ..\ui\UIHelper.cpp ..\ui\UIImageView.cpp ..\ui\UILayout.cpp ..\ui\UILayoutComponent.cpp ..\ui\UILayoutManager.cpp ..\ui\UILayoutParameter.cpp ..\ui\UIListView.cpp ..\ui\UILoadingBar.cpp ..\ui\UIPageView.cpp ..\ui\UIPageViewIndicator.cpp ..\ui\UIRelativeBox.cpp ..\ui\UIRichText.cpp ..\ui\UIScale9Sprite.cpp ..\ui\UIScrollView.cpp ..\ui\UIScrollViewBar.cpp ..\ui\UISlider.cpp ..\ui\UITabControl.cpp ..\ui\UIText.cpp ..\ui\UITextAtlas.cpp ..\ui\UITextBMFont.cpp ..\ui\UITextField.cpp ..\ui\UIVBox.cpp ..\ui\UIWebView.cpp ..\ui\UIWidget.cpp ..\vr\CCVRDistortion.cpp ..\vr\CCVRDistortionMesh.cpp ..\vr\CCVRGenericHeadTracker.cpp ..\vr\CCVRGenericRenderer.cpp CCAction.cpp CCActionCamera.cpp CCActionCatmullRom.cpp CCActionEase.cpp CCActionGrid.cpp CCActionGrid3D.cpp CCActionInstant.cpp CCActionInterval.cpp CCActionManager.cpp CCActionPageTurn3D.cpp CCActionProgressTimer.cpp CCActionTiledGrid.cpp CCActionTween.cpp CCAnimation.cpp CCAnimationCache.cpp CCAtlasNode.cpp CCAutoPolygon.cpp CCCamera.cpp CCCameraBackgroundBrush.cpp CCClippingNode.cpp CCClippingRectangleNode.cpp CCComponent.cpp CCComponentContainer.cpp CCDrawingPrimitives.cpp CCDrawNode.cpp CCFastTMXLayer.cpp CCFastTMXTiledMap.cpp CCFontAtlas.cpp CCFontAtlasCache.cpp CCFontCharMap.cpp CCFontFNT.cpp CCFontFreeType.cpp CCGLBufferedNode.cpp CCGrabber.cpp CCGrid.cpp CCLabel.cpp CCLabelAtlas.cpp CCLabelBMFont.cpp CCLabelTextFormatter.cpp CCLabelTTF.cpp CCLayer.cpp CCLight.cpp CCMenu.cpp CCMenuItem.cpp CCMotionStreak.cpp CCNode.cpp CCNodeGrid.cpp CCParallaxNode.cpp CCParticleBatchNode.cpp CCParticleExamples.cpp CCParticleSystem.cpp CCParticleSystemQuad.cpp CCProgressTimer.cpp CCProtectedNode.cpp CCRenderTexture.cpp CCScene.cpp CCSprite.cpp CCSpriteBatchNode.cpp CCSpriteFrame.cpp CCSpriteFrameCache.cpp CCTextFieldTTF.cpp CCTileMapAtlas.cpp CCTMXLayer.cpp CCTMXObjectGroup.cpp CCTMXTiledMap.cpp CCTMXXMLParser.cpp CCTransition.cpp CCTransitionPageTurn.cpp CCTransitionProgress.cpp CCTweenFunction.cpp
+         AssetsManager.cpp
+         AssetsManagerEx.cpp
+         CCEventAssetsManagerEx.cpp
+         CCEventListenerAssetsManagerEx.cpp
+         Manifest.cpp
+         CCControl.cpp
+     1>..\..\extensions\assets-manager\AssetsManagerEx.cpp(1179): warning C4305: '+=': truncation from 'double' to 'float'
+         CCControlButton.cpp
+         CCControlColourPicker.cpp
+         CCControlHuePicker.cpp
+         CCControlPotentiometer.cpp
+         CCControlSaturationBrightnessPicker.cpp
+         CCControlSlider.cpp
+         CCControlStepper.cpp
+         CCControlSwitch.cpp
+         CCControlUtils.cpp
+         CCInvocation.cpp
+         CCScrollView.cpp
+         CCTableView.cpp
+         CCTableViewCell.cpp
+         CCParticle3DAffector.cpp
+         CCParticle3DEmitter.cpp
+         CCParticle3DRender.cpp
+         CCParticleSystem3D.cpp
+         CCPUAffector.cpp
+         CCPUAffectorManager.cpp
+         CCPUAffectorTranslator.cpp
+         CCPUAlignAffector.cpp
+         CCPUAlignAffectorTranslator.cpp
+         CCPUBaseCollider.cpp
+         CCPUBaseColliderTranslator.cpp
+         CCPUBaseForceAffector.cpp
+         CCPUBaseForceAffectorTranslator.cpp
+         CCPUBeamRender.cpp
+         CCPUBehaviour.cpp
+         CCPUBehaviourManager.cpp
+         CCPUBehaviourTranslator.cpp
+         CCPUBillboardChain.cpp
+         CCPUBoxCollider.cpp
+         CCPUBoxColliderTranslator.cpp
+         CCPUBoxEmitter.cpp
+         CCPUBoxEmitterTranslator.cpp
+         CCPUCircleEmitter.cpp
+         CCPUCircleEmitterTranslator.cpp
+         CCPUCollisionAvoidanceAffector.cpp
+         CCPUCollisionAvoidanceAffectorTranslator.cpp
+         CCPUColorAffector.cpp
+         CCPUColorAffectorTranslator.cpp
+         CCPUDoAffectorEventHandler.cpp
+         CCPUDoAffectorEventHandlerTranslator.cpp
+         CCPUDoEnableComponentEventHandler.cpp
+         CCPUDoEnableComponentEventHandlerTranslator.cpp
+         CCPUDoExpireEventHandler.cpp
+         CCPUDoExpireEventHandlerTranslator.cpp
+         CCPUDoFreezeEventHandler.cpp
+         CCPUDoFreezeEventHandlerTranslator.cpp
+         CCPUDoPlacementParticleEventHandler.cpp
+         CCPUDoPlacementParticleEventHandlerTranslator.cpp
+         CCPUDoScaleEventHandler.cpp
+         CCPUDoScaleEventHandlerTranslator.cpp
+         CCPUDoStopSystemEventHandler.cpp
+         CCPUDoStopSystemEventHandlerTranslator.cpp
+         CCPUDynamicAttribute.cpp
+         CCPUDynamicAttributeTranslator.cpp
+         CCPUEmitter.cpp
+         CCPUEmitterManager.cpp
+         CCPUEmitterTranslator.cpp
+         CCPUEventHandler.cpp
+         CCPUEventHandlerManager.cpp
+         CCPUEventHandlerTranslator.cpp
+         CCPUFlockCenteringAffector.cpp
+         CCPUFlockCenteringAffectorTranslator.cpp
+         CCPUForceField.cpp
+         CCPUForceFieldAffector.cpp
+         CCPUForceFieldAffectorTranslator.cpp
+         CCPUGeometryRotator.cpp
+         CCPUGeometryRotatorTranslator.cpp
+         CCPUGravityAffector.cpp
+         CCPUGravityAffectorTranslator.cpp
+         CCPUInterParticleCollider.cpp
+         CCPUInterParticleColliderTranslator.cpp
+         CCPUJetAffector.cpp
+         CCPUJetAffectorTranslator.cpp
+         CCPULineAffector.cpp
+         CCPULineAffectorTranslator.cpp
+         CCPULinearForceAffector.cpp
+         CCPULinearForceAffectorTranslator.cpp
+         CCPULineEmitter.cpp
+         CCPULineEmitterTranslator.cpp
+         CCPUListener.cpp
+         CCPUMaterialManager.cpp
+         CCPUMaterialTranslator.cpp
+         CCPUMeshSurfaceEmitter.cpp
+         CCPUMeshSurfaceEmitterTranslator.cpp
+         CCPUNoise.cpp
+         CCPUObserver.cpp
+         CCPUObserverManager.cpp
+         CCPUObserverTranslator.cpp
+         CCPUOnClearObserver.cpp
+         CCPUOnClearObserverTranslator.cpp
+         CCPUOnCollisionObserver.cpp
+         CCPUOnCollisionObserverTranslator.cpp
+         CCPUOnCountObserver.cpp
+         CCPUOnCountObserverTranslator.cpp
+         CCPUOnEmissionObserver.cpp
+         CCPUOnEmissionObserverTranslator.cpp
+         CCPUOnEventFlagObserver.cpp
+         CCPUOnEventFlagObserverTranslator.cpp
+         CCPUOnExpireObserver.cpp
+         CCPUOnExpireObserverTranslator.cpp
+         CCPUOnPositionObserver.cpp
+         CCPUOnPositionObserverTranslator.cpp
+         CCPUOnQuotaObserver.cpp
+         CCPUOnQuotaObserverTranslator.cpp
+         CCPUOnRandomObserver.cpp
+         CCPUOnRandomObserverTranslator.cpp
+         CCPUOnTimeObserver.cpp
+         CCPUOnTimeObserverTranslator.cpp
+         CCPUOnVelocityObserver.cpp
+         CCPUOnVelocityObserverTranslator.cpp
+         CCPUParticleFollower.cpp
+         CCPUParticleFollowerTranslator.cpp
+         CCPUParticleSystem3D.cpp
+         CCPUParticleSystem3DTranslator.cpp
+         CCPUPathFollower.cpp
+         CCPUPathFollowerTranslator.cpp
+         CCPUPlane.cpp
+         CCPUPlaneCollider.cpp
+         CCPUPlaneColliderTranslator.cpp
+         CCPUPointEmitter.cpp
+         CCPUPointEmitterTranslator.cpp
+         CCPUPositionEmitter.cpp
+         CCPUPositionEmitterTranslator.cpp
+         CCPURandomiser.cpp
+         CCPURandomiserTranslator.cpp
+         CCPURender.cpp
+         CCPURendererTranslator.cpp
+         CCPURibbonTrail.cpp
+         CCPURibbonTrailRender.cpp
+         CCPUScaleAffector.cpp
+         CCPUScaleAffectorTranslator.cpp
+         CCPUScaleVelocityAffector.cpp
+         CCPUScaleVelocityAffectorTranslator.cpp
+         CCPUScriptCompiler.cpp
+         CCPUScriptLexer.cpp
+         CCPUScriptParser.cpp
+         CCPUScriptTranslator.cpp
+         CCPUSimpleSpline.cpp
+         CCPUSineForceAffector.cpp
+         CCPUSineForceAffectorTranslator.cpp
+         CCPUSlaveBehaviour.cpp
+         CCPUSlaveBehaviourTranslator.cpp
+         CCPUSlaveEmitter.cpp
+         CCPUSlaveEmitterTranslator.cpp
+         CCPUSphere.cpp
+         CCPUSphereCollider.cpp
+         CCPUSphereColliderTranslator.cpp
+         CCPUSphereSurfaceEmitter.cpp
+         CCPUSphereSurfaceEmitterTranslator.cpp
+         CCPUTechniqueTranslator.cpp
+         CCPUTextureAnimator.cpp
+         CCPUTextureAnimatorTranslator.cpp
+         CCPUTextureRotator.cpp
+         CCPUTextureRotatorTranslator.cpp
+         CCPUTranslateManager.cpp
+         CCPUUtil.cpp
+         CCPUVelocityMatchingAffector.cpp
+         CCPUVelocityMatchingAffectorTranslator.cpp
+         CCPUVertexEmitter.cpp
+         CCPUVortexAffector.cpp
+         CCPUVortexAffectorTranslator.cpp
+         CCPhysicsDebugNode.cpp
+         CCPhysicsSprite.cpp
+         clipper.cpp
+         ConvertUTF.c
+         ConvertUTFWrapper.cpp
+         edtaa3func.cpp
+         idl_gen_cpp.cpp
+         idl_gen_fbs.cpp
+         idl_gen_general.cpp
+         idl_gen_go.cpp
+         idl_gen_text.cpp
+         idl_parser.cpp
+         md5.c
+         shapes.cc
+         advancing_front.cc
+         cdt.cc
+         sweep.cc
+         sweep_context.cc
+         tinyxml2.cpp
+         ioapi_mem.cpp
+         ioapi.cpp
+         unzip.cpp
+         xxhash.c
+         CCAABB.cpp
+         CCAnimate3D.cpp
+         CCAnimation3D.cpp
+     1>..\..\external\xxhash\xxhash.c(312): warning C4804: '/': unsafe use of type 'bool' in operation
+         CCAttachNode.cpp
+         CCBillBoard.cpp
+         CCBundle3D.cpp
+         CCBundleReader.cpp
+         CCFrustum.cpp
+         CCMesh.cpp
+         CCMeshSkin.cpp
+         CCMeshVertexIndexData.cpp
+         CCMotionStreak3D.cpp
+         CCOBB.cpp
+         CCObjLoader.cpp
+         CCPlane.cpp
+         CCRay.cpp
+         CCSkeleton3D.cpp
+         CCSkybox.cpp
+         CCSprite3D.cpp
+         CCSprite3DMaterial.cpp
+         CCTerrain.cpp
+         AudioEngine.cpp
+         AudioCache.cpp
+         AudioDecoder.cpp
+         AudioDecoderManager.cpp
+         AudioDecoderMp3.cpp
+         AudioDecoderOgg.cpp
+         AudioEngine-win32.cpp
+         AudioPlayer.cpp
+         MciPlayer.cpp
+         SimpleAudioEngine.cpp
+         CCAllocatorDiagnostics.cpp
+         CCAllocatorGlobal.cpp
+         CCAllocatorGlobalNewDelete.cpp
+         atitc.cpp
+         base64.cpp
+         CCAsyncTaskPool.cpp
+         CCAutoreleasePool.cpp
+         ccCArray.cpp
+         CCConfiguration.cpp
+         CCConsole.cpp
+         CCController.cpp
+         CCController-linux-win32.cpp
+         CCData.cpp
+         CCDataVisitor.cpp
+         CCDirector.cpp
+     1>..\base\CCConsole.cpp(448): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'WCHAR *'
+         ..\base\CCConsole.cpp(448): note: consider using '%ls' in the format string
+         ..\base\CCConsole.cpp(448): note: consider using '%lls' in the format string
+         ..\base\CCConsole.cpp(448): note: consider using '%Ls' in the format string
+         ..\base\CCConsole.cpp(448): note: consider using '%ws' in the format string
+         CCEvent.cpp
+         CCEventAcceleration.cpp
+         CCEventController.cpp
+         CCEventCustom.cpp
+         CCEventDispatcher.cpp
+         CCEventFocus.cpp
+         CCEventKeyboard.cpp
+         CCEventListener.cpp
+         CCEventListenerAcceleration.cpp
+         CCEventListenerController.cpp
+         CCEventListenerCustom.cpp
+         CCEventListenerFocus.cpp
+         CCEventListenerKeyboard.cpp
+         CCEventListenerMouse.cpp
+         CCEventListenerTouch.cpp
+         CCEventMouse.cpp
+         CCEventTouch.cpp
+         ccFPSImages.c
+         CCIMEDispatcher.cpp
+         CCNinePatchImageParser.cpp
+         CCStencilStateManager.cpp
+         CCNS.cpp
+         CCProfiling.cpp
+         CCProperties.cpp
+         ccRandom.cpp
+         CCRef.cpp
+         CCScheduler.cpp
+         CCScriptSupport.cpp
+         CCTouch.cpp
+         ccTypes.cpp
+         CCUserDefault.cpp
+         ccUTF8.cpp
+         ccUtils.cpp
+         CCValue.cpp
+         etc1.cpp
+         pvr.cpp
+         ObjectFactory.cpp
+         s3tc.cpp
+         TGAlib.cpp
+         ZipUtils.cpp
+         cocos2d.cpp
+         CCArray.cpp
+         CCDeprecated.cpp
+         CCDictionary.cpp
+         CCNotificationCenter.cpp
+         CCSet.cpp
+         CCString.cpp
+         CCBAnimationManager.cpp
+         CCBFileLoader.cpp
+         CCBKeyframe.cpp
+         CCBReader.cpp
+         CCBSequence.cpp
+         CCBSequenceProperty.cpp
+         CCControlButtonLoader.cpp
+         CCControlLoader.cpp
+         CCLabelBMFontLoader.cpp
+         CCLabelTTFLoader.cpp
+         CCLayerColorLoader.cpp
+         CCLayerGradientLoader.cpp
+         CCLayerLoader.cpp
+         CCMenuItemImageLoader.cpp
+         CCMenuItemLoader.cpp
+         CCNode+CCBRelativePositioning.cpp
+         CCNodeLoader.cpp
+         CCNodeLoaderLibrary.cpp
+         CCParticleSystemQuadLoader.cpp
+         CCScale9SpriteLoader.cpp
+         CCScrollViewLoader.cpp
+         CCSpriteLoader.cpp
+         CCActionTimeline.cpp
+         CCActionTimelineCache.cpp
+         CCActionTimelineNode.cpp
+         CCBoneNode.cpp
+         CCFrame.cpp
+         CCSkeletonNode.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+         CCSkinNode.cpp
+         CCTimeLine.cpp
+         CSLoader.cpp
+         CCActionFrame.cpp
+         CCActionFrameEasing.cpp
+         CCActionManagerEx.cpp
+         CCActionNode.cpp
+         CCActionObject.cpp
+         CCArmature.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+         CCArmatureAnimation.cpp
+         CCArmatureDataManager.cpp
+         CCArmatureDefine.cpp
+         CCBatchNode.cpp
+         CCBone.cpp
+         CCColliderDetector.cpp
+         CCComAttribute.cpp
+         CCComAudio.cpp
+         CCComController.cpp
+         CCComRender.cpp
+         CCDataReaderHelper.cpp
+         CCDatas.cpp
+         CCDecorativeDisplay.cpp
+         CCDisplayFactory.cpp
+         CCDisplayManager.cpp
+         CCInputDelegate.cpp
+         CCComExtensionData.cpp
+         CCProcessBase.cpp
+         CCSGUIReader.cpp
+         CCSkin.cpp
+         CCSpriteFrameCacheHelper.cpp
+         CCSSceneReader.cpp
+         CCTransformHelp.cpp
+         CCTween.cpp
+         CCUtilMath.cpp
+         CocoLoader.cpp
+         CocoStudio.cpp
+         DictionaryHelper.cpp
+         FlatBuffersSerialize.cpp
+         LocalizationManager.cpp
+         TriggerBase.cpp
+         TriggerMng.cpp
+         TriggerObj.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+         WidgetCallBackHandlerProtocol.cpp
+         ArmatureNodeReader.cpp
+         ButtonReader.cpp
+         CheckBoxReader.cpp
+         ComAudioReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+         GameMapReader.cpp
+         GameNode3DReader.cpp
+         ImageViewReader.cpp
+         LayoutReader.cpp
+         Light3DReader.cpp
+         ListViewReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+         LoadingBarReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+         NodeReaderDefine.cpp
+         NodeReaderProtocol.cpp
+         NodeReader.cpp
+         PageViewReader.cpp
+         ParticleReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+         ProjectNodeReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+         ScrollViewReader.cpp
+         SingleNodeReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+         BoneNodeReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+         SkeletonNodeReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+         SliderReader.cpp
+         SpriteReader.cpp
+         TabControlReader.cpp
+         TextAtlasReader.cpp
+         TextBMFontReader.cpp
+         TextFieldReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+         TextReader.cpp
+         Node3DReader.cpp
+         Sprite3DReader.cpp
+         UserCameraReader.cpp
+         Particle3DReader.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+         WidgetReader.cpp
+         CCAffineTransform.cpp
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1522): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+     1>D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CSParseBinary_generated.h(1569): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+         CCGeometry.cpp
+         CCVertex.cpp
+         Mat4.cpp
+         MathUtil.cpp
+         Quaternion.cpp
+         TransformUtils.cpp
+         Vec2.cpp
+         Vec3.cpp
+         Vec4.cpp
+         CCNavMesh.cpp
+         CCNavMeshAgent.cpp
+         CCNavMeshDebugDraw.cpp
+         CCNavMeshObstacle.cpp
+         CCNavMeshUtils.cpp
+         CCDownloader-curl.cpp
+         CCDownloader.cpp
+         HttpClient.cpp
+         SocketIO.cpp
+         Uri.cpp
+         WebSocket.cpp
+         CCPhysics3D.cpp
+         CCPhysics3DComponent.cpp
+         CCPhysics3DConstraint.cpp
+         CCPhysics3DDebugDrawer.cpp
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3D.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3D.cpp)
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3DComponent.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3DComponent.cpp)
+         CCPhysics3DObject.cpp
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3DConstraint.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3DConstraint.cpp)
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3DDebugDrawer.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3DDebugDrawer.cpp)
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3DObject.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3DObject.cpp)
+         CCPhysics3DShape.cpp
+         CCPhysics3DWorld.cpp
+         CCPhysicsSprite3D.cpp
+         CCPhysicsBody.cpp
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3DWorld.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3DWorld.cpp)
+         CCPhysicsContact.cpp
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysicsSprite3D.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysicsSprite3D.cpp)
+         CCPhysicsJoint.cpp
+     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\physics3d\CCPhysics3DShape.cpp)
+         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\physics3d\CCPhysics3DShape.cpp)
+         CCPhysicsShape.cpp
+         CCPhysicsWorld.cpp
+         CCFileUtils.cpp
+         CCGLView.cpp
+         CCImage.cpp
+         CCSAXParser.cpp
+         CCThread.cpp
+         CCGLViewImpl-desktop.cpp
+         CCApplication-win32.cpp
+         CCCommon-win32.cpp
+         CCDevice-win32.cpp
+         CCFileUtils-win32.cpp
+         CCStdC-win32.cpp
+         CCUtils-win32.cpp
+         CCBatchCommand.cpp
+         CCCustomCommand.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warning C4091: 'typedef ': ignored on left of 'tagGPFIDL_FLAGS' when no variable is declared (compiling source file ..\platform\win32\CCFileUtils-win32.cpp)
+         CCFrameBuffer.cpp
+         CCGLProgram.cpp
+         CCGLProgramCache.cpp
+         CCGLProgramState.cpp
+         CCGLProgramStateCache.cpp
+         ccGLStateCache.cpp
+     1>..\renderer\CCGLProgramState.cpp(913): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
+         ..\renderer\CCGLProgramState.cpp(173): note: see declaration of 'cocos2d::UniformValue::setTexture'
+     1>..\renderer\CCGLProgramState.cpp(917): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
+         ..\renderer\CCGLProgramState.cpp(173): note: see declaration of 'cocos2d::UniformValue::setTexture'
+     1>..\renderer\CCGLProgramState.cpp(934): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
+         ..\renderer\CCGLProgramState.cpp(173): note: see declaration of 'cocos2d::UniformValue::setTexture'
+     1>..\renderer\CCGLProgramState.cpp(938): warning C4996: 'cocos2d::UniformValue::setTexture': was declared deprecated
+         ..\renderer\CCGLProgramState.cpp(173): note: see declaration of 'cocos2d::UniformValue::setTexture'
+         CCGroupCommand.cpp
+         CCMaterial.cpp
+         CCMeshCommand.cpp
+         CCPass.cpp
+         CCPrimitive.cpp
+         CCPrimitiveCommand.cpp
+         CCQuadCommand.cpp
+         CCRenderCommand.cpp
+         CCRenderer.cpp
+         CCRenderState.cpp
+         ccShaders.cpp
+         CCTechnique.cpp
+         CCTexture2D.cpp
+         CCTextureAtlas.cpp
+         CCTextureCache.cpp
+         CCTextureCube.cpp
+         CCTrianglesCommand.cpp
+         CCVertexAttribBinding.cpp
+         CCVertexIndexBuffer.cpp
+         CCVertexIndexData.cpp
+         LocalStorage.cpp
+         CocosGUI.cpp
+         UIButton.cpp
+         UIAbstractCheckButton.cpp
+         UICheckBox.cpp
+         UIEditBoxImpl-common.cpp
+         UIRadioButton.cpp
+         UIDeprecated.cpp
+         UIEditBox.cpp
+         UIEditBoxImpl-win32.cpp
+         UIHBox.cpp
+         UIHelper.cpp
+         UIImageView.cpp
+         UILayout.cpp
+         UILayoutComponent.cpp
+         UILayoutManager.cpp
+         UILayoutParameter.cpp
+         UIListView.cpp
+         UILoadingBar.cpp
+         UIPageView.cpp
+         UIPageViewIndicator.cpp
+         UIRelativeBox.cpp
+         UIRichText.cpp
+         UIScale9Sprite.cpp
+         UIScrollView.cpp
+         UIScrollViewBar.cpp
+         UISlider.cpp
+         UITabControl.cpp
+         UIText.cpp
+         UITextAtlas.cpp
+         UITextBMFont.cpp
+         UITextField.cpp
+     1>..\ui\UIRichText.cpp(1924): warning C4503: 'std::_Func_class<_Ret,const cocos2d::ValueMap &>::_Reset_impl': decorated name length exceeded, name was truncated
+                 with
+                 [
+                     _Ret=std::pair<cocos2d::ValueMap,cocos2d::ui::RichElement *>
+                 ]
+         UIVBox.cpp
+         UIWebView.cpp
+         UIWidget.cpp
+         CCVRDistortion.cpp
+         CCVRDistortionMesh.cpp
+         CCVRGenericHeadTracker.cpp
+         CCVRGenericRenderer.cpp
+         CCAction.cpp
+         CCActionCamera.cpp
+         CCActionCatmullRom.cpp
+         CCActionEase.cpp
+         CCActionGrid.cpp
+         CCActionGrid3D.cpp
+         CCActionInstant.cpp
+         CCActionInterval.cpp
+         CCActionManager.cpp
+         CCActionPageTurn3D.cpp
+         CCActionProgressTimer.cpp
+         CCActionTiledGrid.cpp
+         CCActionTween.cpp
+         CCAnimation.cpp
+         CCAnimationCache.cpp
+         CCAtlasNode.cpp
+         CCAutoPolygon.cpp
+         CCCamera.cpp
+         CCCameraBackgroundBrush.cpp
+         CCClippingNode.cpp
+         CCClippingRectangleNode.cpp
+         CCComponent.cpp
+         CCComponentContainer.cpp
+         CCDrawingPrimitives.cpp
+         CCDrawNode.cpp
+         CCFastTMXLayer.cpp
+         CCFastTMXTiledMap.cpp
+         CCFontAtlas.cpp
+         CCFontAtlasCache.cpp
+         CCFontCharMap.cpp
+         CCFontFNT.cpp
+         CCFontFreeType.cpp
+         CCGLBufferedNode.cpp
+         CCGrabber.cpp
+         CCGrid.cpp
+         CCLabel.cpp
+         CCLabelAtlas.cpp
+         CCLabelBMFont.cpp
+         CCLabelTextFormatter.cpp
+         CCLabelTTF.cpp
+         CCLayer.cpp
+         CCLight.cpp
+         CCMenu.cpp
+         CCMenuItem.cpp
+         CCMotionStreak.cpp
+         CCNode.cpp
+         CCNodeGrid.cpp
+         CCParallaxNode.cpp
+         CCParticleBatchNode.cpp
+         CCParticleExamples.cpp
+         CCParticleSystem.cpp
+         CCParticleSystemQuad.cpp
+         CCProgressTimer.cpp
+         CCProtectedNode.cpp
+         CCRenderTexture.cpp
+         CCScene.cpp
+         CCSprite.cpp
+         CCSpriteBatchNode.cpp
+         CCSpriteFrame.cpp
+         CCSpriteFrameCache.cpp
+         CCTextFieldTTF.cpp
+         CCTileMapAtlas.cpp
+         CCTMXLayer.cpp
+         CCTMXObjectGroup.cpp
+         CCTMXTiledMap.cpp
+         CCTMXXMLParser.cpp
+         CCTransition.cpp
+         CCTransitionPageTurn.cpp
+         CCTransitionProgress.cpp
+         CCTweenFunction.cpp
+       PreLinkEvent:
+         if not exist "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\OpenalSoft\prebuilt\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\MP3Decoder\prebuilt\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\OggDecoder\prebuilt\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\sqlite3\libraries\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\chipmunk\prebuilt\win32\release-lib\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\bullet\prebuilt\win32\debug\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\openssl\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 3 个文件
+         复制了 1 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 6 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 2 个文件
+         复制了 4 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\\" /LIBPATH:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\\" sqlite3.lib libcurl.lib websockets.lib libcrypto.lib libssl.lib libmpg123.lib libogg.lib libvorbis.lib libvorbisfile.lib OpenAL32.lib version.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /DEF:"cocos2d.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.lib" /MACHINE:X86 /SAFESEH /DLL Debug.win32\AssetsManager.obj
+         Debug.win32\AssetsManagerEx.obj
+         Debug.win32\CCEventAssetsManagerEx.obj
+         Debug.win32\CCEventListenerAssetsManagerEx.obj
+         Debug.win32\Manifest.obj
+         Debug.win32\CCControl.obj
+         Debug.win32\CCControlButton.obj
+         Debug.win32\CCControlColourPicker.obj
+         Debug.win32\CCControlHuePicker.obj
+         Debug.win32\CCControlPotentiometer.obj
+         Debug.win32\CCControlSaturationBrightnessPicker.obj
+         Debug.win32\CCControlSlider.obj
+         Debug.win32\CCControlStepper.obj
+         Debug.win32\CCControlSwitch.obj
+         Debug.win32\CCControlUtils.obj
+         Debug.win32\CCInvocation.obj
+         Debug.win32\CCScrollView.obj
+         Debug.win32\CCTableView.obj
+         Debug.win32\CCTableViewCell.obj
+         Debug.win32\CCParticle3DAffector.obj
+         Debug.win32\CCParticle3DEmitter.obj
+         Debug.win32\CCParticle3DRender.obj
+         Debug.win32\CCParticleSystem3D.obj
+         Debug.win32\CCPUAffector.obj
+         Debug.win32\CCPUAffectorManager.obj
+         Debug.win32\CCPUAffectorTranslator.obj
+         Debug.win32\CCPUAlignAffector.obj
+         Debug.win32\CCPUAlignAffectorTranslator.obj
+         Debug.win32\CCPUBaseCollider.obj
+         Debug.win32\CCPUBaseColliderTranslator.obj
+         Debug.win32\CCPUBaseForceAffector.obj
+         Debug.win32\CCPUBaseForceAffectorTranslator.obj
+         Debug.win32\CCPUBeamRender.obj
+         Debug.win32\CCPUBehaviour.obj
+         Debug.win32\CCPUBehaviourManager.obj
+         Debug.win32\CCPUBehaviourTranslator.obj
+         Debug.win32\CCPUBillboardChain.obj
+         Debug.win32\CCPUBoxCollider.obj
+         Debug.win32\CCPUBoxColliderTranslator.obj
+         Debug.win32\CCPUBoxEmitter.obj
+         Debug.win32\CCPUBoxEmitterTranslator.obj
+         Debug.win32\CCPUCircleEmitter.obj
+         Debug.win32\CCPUCircleEmitterTranslator.obj
+         Debug.win32\CCPUCollisionAvoidanceAffector.obj
+         Debug.win32\CCPUCollisionAvoidanceAffectorTranslator.obj
+         Debug.win32\CCPUColorAffector.obj
+         Debug.win32\CCPUColorAffectorTranslator.obj
+         Debug.win32\CCPUDoAffectorEventHandler.obj
+         Debug.win32\CCPUDoAffectorEventHandlerTranslator.obj
+         Debug.win32\CCPUDoEnableComponentEventHandler.obj
+         Debug.win32\CCPUDoEnableComponentEventHandlerTranslator.obj
+         Debug.win32\CCPUDoExpireEventHandler.obj
+         Debug.win32\CCPUDoExpireEventHandlerTranslator.obj
+         Debug.win32\CCPUDoFreezeEventHandler.obj
+         Debug.win32\CCPUDoFreezeEventHandlerTranslator.obj
+         Debug.win32\CCPUDoPlacementParticleEventHandler.obj
+         Debug.win32\CCPUDoPlacementParticleEventHandlerTranslator.obj
+         Debug.win32\CCPUDoScaleEventHandler.obj
+         Debug.win32\CCPUDoScaleEventHandlerTranslator.obj
+         Debug.win32\CCPUDoStopSystemEventHandler.obj
+         Debug.win32\CCPUDoStopSystemEventHandlerTranslator.obj
+         Debug.win32\CCPUDynamicAttribute.obj
+         Debug.win32\CCPUDynamicAttributeTranslator.obj
+         Debug.win32\CCPUEmitter.obj
+         Debug.win32\CCPUEmitterManager.obj
+         Debug.win32\CCPUEmitterTranslator.obj
+         Debug.win32\CCPUEventHandler.obj
+         Debug.win32\CCPUEventHandlerManager.obj
+         Debug.win32\CCPUEventHandlerTranslator.obj
+         Debug.win32\CCPUFlockCenteringAffector.obj
+         Debug.win32\CCPUFlockCenteringAffectorTranslator.obj
+         Debug.win32\CCPUForceField.obj
+         Debug.win32\CCPUForceFieldAffector.obj
+         Debug.win32\CCPUForceFieldAffectorTranslator.obj
+         Debug.win32\CCPUGeometryRotator.obj
+         Debug.win32\CCPUGeometryRotatorTranslator.obj
+         Debug.win32\CCPUGravityAffector.obj
+         Debug.win32\CCPUGravityAffectorTranslator.obj
+         Debug.win32\CCPUInterParticleCollider.obj
+         Debug.win32\CCPUInterParticleColliderTranslator.obj
+         Debug.win32\CCPUJetAffector.obj
+         Debug.win32\CCPUJetAffectorTranslator.obj
+         Debug.win32\CCPULineAffector.obj
+         Debug.win32\CCPULineAffectorTranslator.obj
+         Debug.win32\CCPULinearForceAffector.obj
+         Debug.win32\CCPULinearForceAffectorTranslator.obj
+         Debug.win32\CCPULineEmitter.obj
+         Debug.win32\CCPULineEmitterTranslator.obj
+         Debug.win32\CCPUListener.obj
+         Debug.win32\CCPUMaterialManager.obj
+         Debug.win32\CCPUMaterialTranslator.obj
+         Debug.win32\CCPUMeshSurfaceEmitter.obj
+         Debug.win32\CCPUMeshSurfaceEmitterTranslator.obj
+         Debug.win32\CCPUNoise.obj
+         Debug.win32\CCPUObserver.obj
+         Debug.win32\CCPUObserverManager.obj
+         Debug.win32\CCPUObserverTranslator.obj
+         Debug.win32\CCPUOnClearObserver.obj
+         Debug.win32\CCPUOnClearObserverTranslator.obj
+         Debug.win32\CCPUOnCollisionObserver.obj
+         Debug.win32\CCPUOnCollisionObserverTranslator.obj
+         Debug.win32\CCPUOnCountObserver.obj
+         Debug.win32\CCPUOnCountObserverTranslator.obj
+         Debug.win32\CCPUOnEmissionObserver.obj
+         Debug.win32\CCPUOnEmissionObserverTranslator.obj
+         Debug.win32\CCPUOnEventFlagObserver.obj
+         Debug.win32\CCPUOnEventFlagObserverTranslator.obj
+         Debug.win32\CCPUOnExpireObserver.obj
+         Debug.win32\CCPUOnExpireObserverTranslator.obj
+         Debug.win32\CCPUOnPositionObserver.obj
+         Debug.win32\CCPUOnPositionObserverTranslator.obj
+         Debug.win32\CCPUOnQuotaObserver.obj
+         Debug.win32\CCPUOnQuotaObserverTranslator.obj
+         Debug.win32\CCPUOnRandomObserver.obj
+         Debug.win32\CCPUOnRandomObserverTranslator.obj
+         Debug.win32\CCPUOnTimeObserver.obj
+         Debug.win32\CCPUOnTimeObserverTranslator.obj
+         Debug.win32\CCPUOnVelocityObserver.obj
+         Debug.win32\CCPUOnVelocityObserverTranslator.obj
+         Debug.win32\CCPUParticleFollower.obj
+         Debug.win32\CCPUParticleFollowerTranslator.obj
+         Debug.win32\CCPUParticleSystem3D.obj
+         Debug.win32\CCPUParticleSystem3DTranslator.obj
+         Debug.win32\CCPUPathFollower.obj
+         Debug.win32\CCPUPathFollowerTranslator.obj
+         Debug.win32\CCPUPlane.obj
+         Debug.win32\CCPUPlaneCollider.obj
+         Debug.win32\CCPUPlaneColliderTranslator.obj
+         Debug.win32\CCPUPointEmitter.obj
+         Debug.win32\CCPUPointEmitterTranslator.obj
+         Debug.win32\CCPUPositionEmitter.obj
+         Debug.win32\CCPUPositionEmitterTranslator.obj
+         Debug.win32\CCPURandomiser.obj
+         Debug.win32\CCPURandomiserTranslator.obj
+         Debug.win32\CCPURender.obj
+         Debug.win32\CCPURendererTranslator.obj
+         Debug.win32\CCPURibbonTrail.obj
+         Debug.win32\CCPURibbonTrailRender.obj
+         Debug.win32\CCPUScaleAffector.obj
+         Debug.win32\CCPUScaleAffectorTranslator.obj
+         Debug.win32\CCPUScaleVelocityAffector.obj
+         Debug.win32\CCPUScaleVelocityAffectorTranslator.obj
+         Debug.win32\CCPUScriptCompiler.obj
+         Debug.win32\CCPUScriptLexer.obj
+         Debug.win32\CCPUScriptParser.obj
+         Debug.win32\CCPUScriptTranslator.obj
+         Debug.win32\CCPUSimpleSpline.obj
+         Debug.win32\CCPUSineForceAffector.obj
+         Debug.win32\CCPUSineForceAffectorTranslator.obj
+         Debug.win32\CCPUSlaveBehaviour.obj
+         Debug.win32\CCPUSlaveBehaviourTranslator.obj
+         Debug.win32\CCPUSlaveEmitter.obj
+         Debug.win32\CCPUSlaveEmitterTranslator.obj
+         Debug.win32\CCPUSphere.obj
+         Debug.win32\CCPUSphereCollider.obj
+         Debug.win32\CCPUSphereColliderTranslator.obj
+         Debug.win32\CCPUSphereSurfaceEmitter.obj
+         Debug.win32\CCPUSphereSurfaceEmitterTranslator.obj
+         Debug.win32\CCPUTechniqueTranslator.obj
+         Debug.win32\CCPUTextureAnimator.obj
+         Debug.win32\CCPUTextureAnimatorTranslator.obj
+         Debug.win32\CCPUTextureRotator.obj
+         Debug.win32\CCPUTextureRotatorTranslator.obj
+         Debug.win32\CCPUTranslateManager.obj
+         Debug.win32\CCPUUtil.obj
+         Debug.win32\CCPUVelocityMatchingAffector.obj
+         Debug.win32\CCPUVelocityMatchingAffectorTranslator.obj
+         Debug.win32\CCPUVertexEmitter.obj
+         Debug.win32\CCPUVortexAffector.obj
+         Debug.win32\CCPUVortexAffectorTranslator.obj
+         Debug.win32\CCPhysicsDebugNode.obj
+         Debug.win32\CCPhysicsSprite.obj
+         Debug.win32\clipper.obj
+         Debug.win32\ConvertUTF.obj
+         Debug.win32\ConvertUTFWrapper.obj
+         Debug.win32\edtaa3func.obj
+         Debug.win32\idl_gen_cpp.obj
+         Debug.win32\idl_gen_fbs.obj
+         Debug.win32\idl_gen_general.obj
+         Debug.win32\idl_gen_go.obj
+         Debug.win32\idl_gen_text.obj
+         Debug.win32\idl_parser.obj
+         Debug.win32\md5.obj
+         Debug.win32\shapes.obj
+         Debug.win32\advancing_front.obj
+         Debug.win32\cdt.obj
+         Debug.win32\sweep.obj
+         Debug.win32\sweep_context.obj
+         Debug.win32\tinyxml2.obj
+         Debug.win32\ioapi_mem.obj
+         Debug.win32\ioapi.obj
+         Debug.win32\unzip.obj
+         Debug.win32\xxhash.obj
+         Debug.win32\CCAABB.obj
+         Debug.win32\CCAnimate3D.obj
+         Debug.win32\CCAnimation3D.obj
+         Debug.win32\CCAttachNode.obj
+         Debug.win32\CCBillBoard.obj
+         Debug.win32\CCBundle3D.obj
+         Debug.win32\CCBundleReader.obj
+         Debug.win32\CCFrustum.obj
+         Debug.win32\CCMesh.obj
+         Debug.win32\CCMeshSkin.obj
+         Debug.win32\CCMeshVertexIndexData.obj
+         Debug.win32\CCMotionStreak3D.obj
+         Debug.win32\CCOBB.obj
+         Debug.win32\CCObjLoader.obj
+         Debug.win32\CCPlane.obj
+         Debug.win32\CCRay.obj
+         Debug.win32\CCSkeleton3D.obj
+         Debug.win32\CCSkybox.obj
+         Debug.win32\CCSprite3D.obj
+         Debug.win32\CCSprite3DMaterial.obj
+         Debug.win32\CCTerrain.obj
+         Debug.win32\AudioEngine.obj
+         Debug.win32\AudioCache.obj
+         Debug.win32\AudioDecoder.obj
+         Debug.win32\AudioDecoderManager.obj
+         Debug.win32\AudioDecoderMp3.obj
+         Debug.win32\AudioDecoderOgg.obj
+         "Debug.win32\AudioEngine-win32.obj"
+         Debug.win32\AudioPlayer.obj
+         Debug.win32\MciPlayer.obj
+         Debug.win32\SimpleAudioEngine.obj
+         Debug.win32\CCAllocatorDiagnostics.obj
+         Debug.win32\CCAllocatorGlobal.obj
+         Debug.win32\CCAllocatorGlobalNewDelete.obj
+         Debug.win32\atitc.obj
+         Debug.win32\base64.obj
+         Debug.win32\CCAsyncTaskPool.obj
+         Debug.win32\CCAutoreleasePool.obj
+         Debug.win32\ccCArray.obj
+         Debug.win32\CCConfiguration.obj
+         Debug.win32\CCConsole.obj
+         Debug.win32\CCController.obj
+         "Debug.win32\CCController-linux-win32.obj"
+         Debug.win32\CCData.obj
+         Debug.win32\CCDataVisitor.obj
+         Debug.win32\CCDirector.obj
+         Debug.win32\CCEvent.obj
+         Debug.win32\CCEventAcceleration.obj
+         Debug.win32\CCEventController.obj
+         Debug.win32\CCEventCustom.obj
+         Debug.win32\CCEventDispatcher.obj
+         Debug.win32\CCEventFocus.obj
+         Debug.win32\CCEventKeyboard.obj
+         Debug.win32\CCEventListener.obj
+         Debug.win32\CCEventListenerAcceleration.obj
+         Debug.win32\CCEventListenerController.obj
+         Debug.win32\CCEventListenerCustom.obj
+         Debug.win32\CCEventListenerFocus.obj
+         Debug.win32\CCEventListenerKeyboard.obj
+         Debug.win32\CCEventListenerMouse.obj
+         Debug.win32\CCEventListenerTouch.obj
+         Debug.win32\CCEventMouse.obj
+         Debug.win32\CCEventTouch.obj
+         Debug.win32\ccFPSImages.obj
+         Debug.win32\CCIMEDispatcher.obj
+         Debug.win32\CCNinePatchImageParser.obj
+         Debug.win32\CCStencilStateManager.obj
+         Debug.win32\CCNS.obj
+         Debug.win32\CCProfiling.obj
+         Debug.win32\CCProperties.obj
+         Debug.win32\ccRandom.obj
+         Debug.win32\CCRef.obj
+         Debug.win32\CCScheduler.obj
+         Debug.win32\CCScriptSupport.obj
+         Debug.win32\CCTouch.obj
+         Debug.win32\ccTypes.obj
+         Debug.win32\CCUserDefault.obj
+         Debug.win32\ccUTF8.obj
+         Debug.win32\ccUtils.obj
+         Debug.win32\CCValue.obj
+         Debug.win32\etc1.obj
+         Debug.win32\pvr.obj
+         Debug.win32\ObjectFactory.obj
+         Debug.win32\s3tc.obj
+         Debug.win32\TGAlib.obj
+         Debug.win32\ZipUtils.obj
+         Debug.win32\cocos2d.obj
+         Debug.win32\CCArray.obj
+         Debug.win32\CCDeprecated.obj
+         Debug.win32\CCDictionary.obj
+         Debug.win32\CCNotificationCenter.obj
+         Debug.win32\CCSet.obj
+         Debug.win32\CCString.obj
+         Debug.win32\CCBAnimationManager.obj
+         Debug.win32\CCBFileLoader.obj
+         Debug.win32\CCBKeyframe.obj
+         Debug.win32\CCBReader.obj
+         Debug.win32\CCBSequence.obj
+         Debug.win32\CCBSequenceProperty.obj
+         Debug.win32\CCControlButtonLoader.obj
+         Debug.win32\CCControlLoader.obj
+         Debug.win32\CCLabelBMFontLoader.obj
+         Debug.win32\CCLabelTTFLoader.obj
+         Debug.win32\CCLayerColorLoader.obj
+         Debug.win32\CCLayerGradientLoader.obj
+         Debug.win32\CCLayerLoader.obj
+         Debug.win32\CCMenuItemImageLoader.obj
+         Debug.win32\CCMenuItemLoader.obj
+         Debug.win32\CCNode+CCBRelativePositioning.obj
+         Debug.win32\CCNodeLoader.obj
+         Debug.win32\CCNodeLoaderLibrary.obj
+         Debug.win32\CCParticleSystemQuadLoader.obj
+         Debug.win32\CCScale9SpriteLoader.obj
+         Debug.win32\CCScrollViewLoader.obj
+         Debug.win32\CCSpriteLoader.obj
+         Debug.win32\CCActionTimeline.obj
+         Debug.win32\CCActionTimelineCache.obj
+         Debug.win32\CCActionTimelineNode.obj
+         Debug.win32\CCBoneNode.obj
+         Debug.win32\CCFrame.obj
+         Debug.win32\CCSkeletonNode.obj
+         Debug.win32\CCSkinNode.obj
+         Debug.win32\CCTimeLine.obj
+         Debug.win32\CSLoader.obj
+         Debug.win32\CCActionFrame.obj
+         Debug.win32\CCActionFrameEasing.obj
+         Debug.win32\CCActionManagerEx.obj
+         Debug.win32\CCActionNode.obj
+         Debug.win32\CCActionObject.obj
+         Debug.win32\CCArmature.obj
+         Debug.win32\CCArmatureAnimation.obj
+         Debug.win32\CCArmatureDataManager.obj
+         Debug.win32\CCArmatureDefine.obj
+         Debug.win32\CCBatchNode.obj
+         Debug.win32\CCBone.obj
+         Debug.win32\CCColliderDetector.obj
+         Debug.win32\CCComAttribute.obj
+         Debug.win32\CCComAudio.obj
+         Debug.win32\CCComController.obj
+         Debug.win32\CCComRender.obj
+         Debug.win32\CCDataReaderHelper.obj
+         Debug.win32\CCDatas.obj
+         Debug.win32\CCDecorativeDisplay.obj
+         Debug.win32\CCDisplayFactory.obj
+         Debug.win32\CCDisplayManager.obj
+         Debug.win32\CCInputDelegate.obj
+         Debug.win32\CCComExtensionData.obj
+         Debug.win32\CCProcessBase.obj
+         Debug.win32\CCSGUIReader.obj
+         Debug.win32\CCSkin.obj
+         Debug.win32\CCSpriteFrameCacheHelper.obj
+         Debug.win32\CCSSceneReader.obj
+         Debug.win32\CCTransformHelp.obj
+         Debug.win32\CCTween.obj
+         Debug.win32\CCUtilMath.obj
+         Debug.win32\CocoLoader.obj
+         Debug.win32\CocoStudio.obj
+         Debug.win32\DictionaryHelper.obj
+         Debug.win32\FlatBuffersSerialize.obj
+         Debug.win32\LocalizationManager.obj
+         Debug.win32\TriggerBase.obj
+         Debug.win32\TriggerMng.obj
+         Debug.win32\TriggerObj.obj
+         Debug.win32\WidgetCallBackHandlerProtocol.obj
+         Debug.win32\ArmatureNodeReader.obj
+         Debug.win32\ButtonReader.obj
+         Debug.win32\CheckBoxReader.obj
+         Debug.win32\ComAudioReader.obj
+         Debug.win32\GameMapReader.obj
+         Debug.win32\GameNode3DReader.obj
+         Debug.win32\ImageViewReader.obj
+         Debug.win32\LayoutReader.obj
+         Debug.win32\Light3DReader.obj
+         Debug.win32\ListViewReader.obj
+         Debug.win32\LoadingBarReader.obj
+         Debug.win32\NodeReaderDefine.obj
+         Debug.win32\NodeReaderProtocol.obj
+         Debug.win32\NodeReader.obj
+         Debug.win32\PageViewReader.obj
+         Debug.win32\ParticleReader.obj
+         Debug.win32\ProjectNodeReader.obj
+         Debug.win32\ScrollViewReader.obj
+         Debug.win32\SingleNodeReader.obj
+         Debug.win32\BoneNodeReader.obj
+         Debug.win32\SkeletonNodeReader.obj
+         Debug.win32\SliderReader.obj
+         Debug.win32\SpriteReader.obj
+         Debug.win32\TabControlReader.obj
+         Debug.win32\TextAtlasReader.obj
+         Debug.win32\TextBMFontReader.obj
+         Debug.win32\TextFieldReader.obj
+         Debug.win32\TextReader.obj
+         Debug.win32\Node3DReader.obj
+         Debug.win32\Sprite3DReader.obj
+         Debug.win32\UserCameraReader.obj
+         Debug.win32\Particle3DReader.obj
+         Debug.win32\WidgetReader.obj
+         Debug.win32\CCAffineTransform.obj
+         Debug.win32\CCGeometry.obj
+         Debug.win32\CCVertex.obj
+         Debug.win32\Mat4.obj
+         Debug.win32\MathUtil.obj
+         Debug.win32\Quaternion.obj
+         Debug.win32\TransformUtils.obj
+         Debug.win32\Vec2.obj
+         Debug.win32\Vec3.obj
+         Debug.win32\Vec4.obj
+         Debug.win32\CCNavMesh.obj
+         Debug.win32\CCNavMeshAgent.obj
+         Debug.win32\CCNavMeshDebugDraw.obj
+         Debug.win32\CCNavMeshObstacle.obj
+         Debug.win32\CCNavMeshUtils.obj
+         "Debug.win32\CCDownloader-curl.obj"
+         Debug.win32\CCDownloader.obj
+         Debug.win32\HttpClient.obj
+         Debug.win32\SocketIO.obj
+         Debug.win32\Uri.obj
+         Debug.win32\WebSocket.obj
+         Debug.win32\CCPhysics3D.obj
+         Debug.win32\CCPhysics3DComponent.obj
+         Debug.win32\CCPhysics3DConstraint.obj
+         Debug.win32\CCPhysics3DDebugDrawer.obj
+         Debug.win32\CCPhysics3DObject.obj
+         Debug.win32\CCPhysics3DShape.obj
+         Debug.win32\CCPhysics3DWorld.obj
+         Debug.win32\CCPhysicsSprite3D.obj
+         Debug.win32\CCPhysicsBody.obj
+         Debug.win32\CCPhysicsContact.obj
+         Debug.win32\CCPhysicsJoint.obj
+         Debug.win32\CCPhysicsShape.obj
+         Debug.win32\CCPhysicsWorld.obj
+         Debug.win32\CCFileUtils.obj
+         Debug.win32\CCGLView.obj
+         Debug.win32\CCImage.obj
+         Debug.win32\CCSAXParser.obj
+         Debug.win32\CCThread.obj
+         "Debug.win32\CCGLViewImpl-desktop.obj"
+         "Debug.win32\CCApplication-win32.obj"
+         "Debug.win32\CCCommon-win32.obj"
+         "Debug.win32\CCDevice-win32.obj"
+         "Debug.win32\CCFileUtils-win32.obj"
+         "Debug.win32\CCStdC-win32.obj"
+         "Debug.win32\CCUtils-win32.obj"
+         Debug.win32\CCBatchCommand.obj
+         Debug.win32\CCCustomCommand.obj
+         Debug.win32\CCFrameBuffer.obj
+         Debug.win32\CCGLProgram.obj
+         Debug.win32\CCGLProgramCache.obj
+         Debug.win32\CCGLProgramState.obj
+         Debug.win32\CCGLProgramStateCache.obj
+         Debug.win32\ccGLStateCache.obj
+         Debug.win32\CCGroupCommand.obj
+         Debug.win32\CCMaterial.obj
+         Debug.win32\CCMeshCommand.obj
+         Debug.win32\CCPass.obj
+         Debug.win32\CCPrimitive.obj
+         Debug.win32\CCPrimitiveCommand.obj
+         Debug.win32\CCQuadCommand.obj
+         Debug.win32\CCRenderCommand.obj
+         Debug.win32\CCRenderer.obj
+         Debug.win32\CCRenderState.obj
+         Debug.win32\ccShaders.obj
+         Debug.win32\CCTechnique.obj
+         Debug.win32\CCTexture2D.obj
+         Debug.win32\CCTextureAtlas.obj
+         Debug.win32\CCTextureCache.obj
+         Debug.win32\CCTextureCube.obj
+         Debug.win32\CCTrianglesCommand.obj
+         Debug.win32\CCVertexAttribBinding.obj
+         Debug.win32\CCVertexIndexBuffer.obj
+         Debug.win32\CCVertexIndexData.obj
+         Debug.win32\LocalStorage.obj
+         Debug.win32\CocosGUI.obj
+         Debug.win32\UIButton.obj
+         Debug.win32\UIAbstractCheckButton.obj
+         Debug.win32\UICheckBox.obj
+         "Debug.win32\UIEditBoxImpl-common.obj"
+         Debug.win32\UIRadioButton.obj
+         Debug.win32\UIDeprecated.obj
+         Debug.win32\UIEditBox.obj
+         "Debug.win32\UIEditBoxImpl-win32.obj"
+         Debug.win32\UIHBox.obj
+         Debug.win32\UIHelper.obj
+         Debug.win32\UIImageView.obj
+         Debug.win32\UILayout.obj
+         Debug.win32\UILayoutComponent.obj
+         Debug.win32\UILayoutManager.obj
+         Debug.win32\UILayoutParameter.obj
+         Debug.win32\UIListView.obj
+         Debug.win32\UILoadingBar.obj
+         Debug.win32\UIPageView.obj
+         Debug.win32\UIPageViewIndicator.obj
+         Debug.win32\UIRelativeBox.obj
+         Debug.win32\UIRichText.obj
+         Debug.win32\UIScale9Sprite.obj
+         Debug.win32\UIScrollView.obj
+         Debug.win32\UIScrollViewBar.obj
+         Debug.win32\UISlider.obj
+         Debug.win32\UITabControl.obj
+         Debug.win32\UIText.obj
+         Debug.win32\UITextAtlas.obj
+         Debug.win32\UITextBMFont.obj
+         Debug.win32\UITextField.obj
+         Debug.win32\UIVBox.obj
+         Debug.win32\UIWebView.obj
+         Debug.win32\UIWidget.obj
+         Debug.win32\CCVRDistortion.obj
+         Debug.win32\CCVRDistortionMesh.obj
+         Debug.win32\CCVRGenericHeadTracker.obj
+         Debug.win32\CCVRGenericRenderer.obj
+         Debug.win32\CCAction.obj
+         Debug.win32\CCActionCamera.obj
+         Debug.win32\CCActionCatmullRom.obj
+         Debug.win32\CCActionEase.obj
+         Debug.win32\CCActionGrid.obj
+         Debug.win32\CCActionGrid3D.obj
+         Debug.win32\CCActionInstant.obj
+         Debug.win32\CCActionInterval.obj
+         Debug.win32\CCActionManager.obj
+         Debug.win32\CCActionPageTurn3D.obj
+         Debug.win32\CCActionProgressTimer.obj
+         Debug.win32\CCActionTiledGrid.obj
+         Debug.win32\CCActionTween.obj
+         Debug.win32\CCAnimation.obj
+         Debug.win32\CCAnimationCache.obj
+         Debug.win32\CCAtlasNode.obj
+         Debug.win32\CCAutoPolygon.obj
+         Debug.win32\CCCamera.obj
+         Debug.win32\CCCameraBackgroundBrush.obj
+         Debug.win32\CCClippingNode.obj
+         Debug.win32\CCClippingRectangleNode.obj
+         Debug.win32\CCComponent.obj
+         Debug.win32\CCComponentContainer.obj
+         Debug.win32\CCDrawingPrimitives.obj
+         Debug.win32\CCDrawNode.obj
+         Debug.win32\CCFastTMXLayer.obj
+         Debug.win32\CCFastTMXTiledMap.obj
+         Debug.win32\CCFontAtlas.obj
+         Debug.win32\CCFontAtlasCache.obj
+         Debug.win32\CCFontCharMap.obj
+         Debug.win32\CCFontFNT.obj
+         Debug.win32\CCFontFreeType.obj
+         Debug.win32\CCGLBufferedNode.obj
+         Debug.win32\CCGrabber.obj
+         Debug.win32\CCGrid.obj
+         Debug.win32\CCLabel.obj
+         Debug.win32\CCLabelAtlas.obj
+         Debug.win32\CCLabelBMFont.obj
+         Debug.win32\CCLabelTextFormatter.obj
+         Debug.win32\CCLabelTTF.obj
+         Debug.win32\CCLayer.obj
+         Debug.win32\CCLight.obj
+         Debug.win32\CCMenu.obj
+         Debug.win32\CCMenuItem.obj
+         Debug.win32\CCMotionStreak.obj
+         Debug.win32\CCNode.obj
+         Debug.win32\CCNodeGrid.obj
+         Debug.win32\CCParallaxNode.obj
+         Debug.win32\CCParticleBatchNode.obj
+         Debug.win32\CCParticleExamples.obj
+         Debug.win32\CCParticleSystem.obj
+         Debug.win32\CCParticleSystemQuad.obj
+         Debug.win32\CCProgressTimer.obj
+         Debug.win32\CCProtectedNode.obj
+         Debug.win32\CCRenderTexture.obj
+         Debug.win32\CCScene.obj
+         Debug.win32\CCSprite.obj
+         Debug.win32\CCSpriteBatchNode.obj
+         Debug.win32\CCSpriteFrame.obj
+         Debug.win32\CCSpriteFrameCache.obj
+         Debug.win32\CCTextFieldTTF.obj
+         Debug.win32\CCTileMapAtlas.obj
+         Debug.win32\CCTMXLayer.obj
+         Debug.win32\CCTMXObjectGroup.obj
+         Debug.win32\CCTMXTiledMap.obj
+         Debug.win32\CCTMXXMLParser.obj
+         Debug.win32\CCTransition.obj
+         Debug.win32\CCTransitionPageTurn.obj
+         Debug.win32\CCTransitionProgress.obj
+         Debug.win32\CCTweenFunction.obj
+         "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbox2d.lib"
+         "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\librecast.lib"
+         "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libSpine.lib"
+     1>libtiff-2015.lib(tif_win32.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         libchipmunk-2015.lib(chipmunk.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>libtiff-2015.lib(tif_win32.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.lib and object D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>libchipmunk-2015.lib(chipmunk.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(chipmunk.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpBody.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpBody.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpShape.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpConstraint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpPinJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpPinJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSlideJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSlideJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpPivotJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpPivotJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpGrooveJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpGrooveJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpDampedSpring.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpDampedSpring.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpace.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpace.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpaceComponent.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpaceComponent.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpArbiter.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpArbiter.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpDampedRotarySpring.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpDampedRotarySpring.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpRotaryLimitJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpRotaryLimitJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpRatchetJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpRatchetJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpGearJoint.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpGearJoint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSimpleMotor.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSimpleMotor.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpPolyShape.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpPolyShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpaceQuery.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpaceQuery.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpaceStep.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpaceStep.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpaceDebug.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpaceDebug.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpArray.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpArray.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpCollision.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpCollision.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpHashSet.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpHashSet.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpBBTree.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpBBTree.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpaceHash.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpaceHash.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpSpatialIndex.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpSpatialIndex.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libchipmunk-2015.lib(cpRobust.obj) : warning LNK4099: PDB 'chipmunk.pdb' was not found with 'libchipmunk-2015.lib(cpRobust.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\chipmunk.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_aux.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_aux.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_close.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_close.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_codec.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_codec.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_color.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_color.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_compress.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_compress.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_dir.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_dir.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_dirinfo.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_dirinfo.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_dirread.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_dirread.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_dirwrite.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_dirwrite.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_dumpmode.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_dumpmode.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_error.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_error.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_fax3.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_fax3.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_fax3sm.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_fax3sm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_getimage.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_getimage.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_flush.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_flush.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_luv.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_luv.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_lzw.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_lzw.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_next.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_next.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_open.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_open.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_packbits.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_packbits.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_predict.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_predict.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_read.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_read.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_swab.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_swab.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_strip.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_strip.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_thunder.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_thunder.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_tile.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_tile.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_warning.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_warning.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_write.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_write.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libtiff-2015.lib(tif_win32.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'libtiff-2015.lib(tif_win32.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\vc140.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btDbvt.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btDbvt.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btDbvtBroadphase.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btDbvtBroadphase.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btDispatcher.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btDispatcher.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btOverlappingPairCache.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btOverlappingPairCache.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btQuantizedBvh.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btQuantizedBvh.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btActivatingCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btBoxBoxCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btBoxBoxDetector.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btBoxBoxDetector.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCollisionDispatcher.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCollisionDispatcher.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCollisionObject.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCollisionObject.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCollisionWorld.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCollisionWorld.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCompoundCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCompoundCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCompoundCompoundCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexConcaveCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexConvexAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexConvexAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexPlaneCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btDefaultCollisionConfiguration.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btDefaultCollisionConfiguration.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btEmptyCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btEmptyCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGhostObject.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGhostObject.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btHashedSimplePairCache.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btHashedSimplePairCache.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btManifoldResult.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btManifoldResult.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSimulationIslandManager.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSimulationIslandManager.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSphereSphereCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSphereTriangleCollisionAlgorithm.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btUnionFind.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btUnionFind.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(SphereTriangleDetector.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(SphereTriangleDetector.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btBoxShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btBoxShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btBvhTriangleMeshShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCapsuleShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCapsuleShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCollisionShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCollisionShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCompoundShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCompoundShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConcaveShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConcaveShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexHullShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexHullShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexInternalShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexInternalShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexPolyhedron.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexPolyhedron.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btCylinderShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btCylinderShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btHeightfieldTerrainShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btHeightfieldTerrainShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btOptimizedBvh.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btOptimizedBvh.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btPolyhedralConvexShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btPolyhedralConvexShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSphereShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSphereShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btStridingMeshInterface.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btStridingMeshInterface.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btTriangleCallback.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btTriangleCallback.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btTriangleIndexVertexArray.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btTriangleIndexVertexArray.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btTriangleMesh.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btTriangleMesh.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btTriangleMeshShape.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btTriangleMeshShape.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btContinuousConvexCollision.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btContinuousConvexCollision.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexCast.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexCast.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGjkConvexCast.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGjkConvexCast.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGjkEpa2.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGjkEpa2.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGjkEpaPenetrationDepthSolver.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGjkEpaPenetrationDepthSolver.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGjkPairDetector.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGjkPairDetector.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btMinkowskiPenetrationDepthSolver.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btMinkowskiPenetrationDepthSolver.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btPersistentManifold.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btPersistentManifold.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btPolyhedralContactClipping.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btPolyhedralContactClipping.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btRaycastCallback.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btRaycastCallback.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSubSimplexConvexCast.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSubSimplexConvexCast.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btVoronoiSimplexSolver.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConeTwistConstraint.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConeTwistConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGeneric6DofConstraint.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGeneric6DofConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btHingeConstraint.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btHingeConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btPoint2PointConstraint.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btPoint2PointConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSequentialImpulseConstraintSolver.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btSliderConstraint.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btSliderConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btTypedConstraint.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btTypedConstraint.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btDiscreteDynamicsWorld.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btRigidBody.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btRigidBody.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btAlignedAllocator.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btAlignedAllocator.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btConvexHullComputer.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btConvexHullComputer.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btGeometryUtil.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btGeometryUtil.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btQuickprof.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btQuickprof.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+     1>libbullet-2015.lib(btVector3.obj) : warning LNK4099: PDB 'libbullet.pdb' was not found with 'libbullet-2015.lib(btVector3.obj)' or at 'D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libbullet.pdb'; linking object as if no debug info
+         libcocos2d.vcxproj -> D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libcocos2d.dll
+     1>Done Building Project "D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\libcocos2d.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:04:14.10

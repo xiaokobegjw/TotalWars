@@ -1,0 +1,259 @@
+﻿Build started 2021/7/8 14:15:23.
+     1>Project "D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\proj.win32\libsimulator.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\proj.win32\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\proj.win32\..\lib\protobuf-lite" /I"D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\proj.win32\..\lib" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\zlib\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos\scripting\lua-bindings\auto" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos\scripting\lua-bindings\manual" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos\audio\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua\lua" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua\tolua" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\curl\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\tinyxml2" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\extensions" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos/editor-support" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\openssl\include\win32" /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D GLFW_EXPOSE_NATIVE_WIN32 /D GLFW_EXPOSE_NATIVE_WGL /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS /D _USRLIBSIMSTATIC /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\\" /Fd"Debug.win32\vc140.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /FIalgorithm /analyze- /errorReport:prompt ..\lib\network\CCHTTPRequest.cpp "..\lib\platform\win32\DeviceEx-win32.cpp" ..\lib\platform\win32\PlayerEditBoxServiceWin.cpp ..\lib\platform\win32\PlayerFileDialogServiceWin.cpp ..\lib\platform\win32\PlayerMenuServiceWin.cpp ..\lib\platform\win32\PlayerMessageBoxServiceWin.cpp ..\lib\platform\win32\PlayerTaskServiceWin.cpp ..\lib\platform\win32\PlayerWin.cpp ..\lib\ProjectConfig\ProjectConfig.cpp ..\lib\ProjectConfig\SimulatorConfig.cpp ..\lib\AppEvent.cpp ..\lib\AppLang.cpp ..\lib\PlayerMenuServiceProtocol.cpp ..\lib\PlayerProtocol.cpp ..\lib\PlayerServiceProtocol.cpp ..\lib\PlayerSettings.cpp ..\lib\PlayerTaskServiceProtocol.cpp ..\lib\PlayerUtils.cpp "..\lib\protobuf-lite\google\protobuf\extension_set.cc" "..\lib\protobuf-lite\google\protobuf\generated_message_util.cc" "..\lib\protobuf-lite\google\protobuf\io\coded_stream.cc" "..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream.cc" "..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc" "..\lib\protobuf-lite\google\protobuf\message_lite.cc" "..\lib\protobuf-lite\google\protobuf\repeated_field.cc" "..\lib\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" "..\lib\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" "..\lib\protobuf-lite\google\protobuf\stubs\common.cc" "..\lib\protobuf-lite\google\protobuf\stubs\once.cc" "..\lib\protobuf-lite\google\protobuf\stubs\stringprintf.cc" "..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc" ..\lib\runtime\ConfigParser.cpp ..\lib\runtime\ConnectWaitLayer.cpp ..\lib\runtime\ConsoleCommand.cpp ..\lib\runtime\FileServer.cpp ..\lib\runtime\Landscape_png.cpp ..\lib\runtime\PlayDisable_png.cpp ..\lib\runtime\PlayEnable_png.cpp ..\lib\runtime\Portrait_png.cpp ..\lib\runtime\Protos.pb.cc ..\lib\runtime\Runtime.cpp ..\lib\runtime\RuntimeCCSImpl.cpp ..\lib\runtime\RuntimeProtocol.cpp ..\lib\runtime\Shine_png.cpp ..\lib\runtime\VisibleRect.cpp Runtime_win32.cpp stdafx.cpp
+         CCHTTPRequest.cpp
+         DeviceEx-win32.cpp
+         PlayerEditBoxServiceWin.cpp
+         PlayerFileDialogServiceWin.cpp
+         PlayerMenuServiceWin.cpp
+         PlayerMessageBoxServiceWin.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include\Shlobj.h(1151): warning C4091: 'typedef ': ignored on left of 'tagGPFIDL_FLAGS' when no variable is declared (compiling source file ..\lib\platform\win32\PlayerFileDialogServiceWin.cpp)
+         PlayerTaskServiceWin.cpp
+         PlayerWin.cpp
+         ProjectConfig.cpp
+         SimulatorConfig.cpp
+         AppEvent.cpp
+         AppLang.cpp
+         PlayerMenuServiceProtocol.cpp
+     1>..\lib\ProjectConfig\ProjectConfig.cpp(661): warning C4018: '>=': signed/unsigned mismatch
+         PlayerProtocol.cpp
+         PlayerServiceProtocol.cpp
+         PlayerSettings.cpp
+         PlayerTaskServiceProtocol.cpp
+         PlayerUtils.cpp
+         extension_set.cc
+         generated_message_util.cc
+         coded_stream.cc
+         zero_copy_stream.cc
+         zero_copy_stream_impl_lite.cc
+         message_lite.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl' (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(785): note: see reference to function template instantiation '_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(784): note: while compiling class template member function 'void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): note: see reference to function template instantiation 'void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): note: see reference to class template instantiation 'google::protobuf::internal::ElementCopier<Element,false>' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(776): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(677): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(552): note: while compiling class template member function 'google::protobuf::RepeatedField<google::protobuf::int64>::RepeatedField(void)' (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+         ..\lib\protobuf-lite\google\protobuf\extension_set.cc(298): note: see reference to function template instantiation 'google::protobuf::RepeatedField<google::protobuf::int64>::RepeatedField(void)' being compiled
+         ..\lib\protobuf-lite\google\protobuf\extension_set.cc(298): note: see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::int64>' being compiled
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl' (compiling source file ..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+     1>..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc(157): warning C4018: '<': signed/unsigned mismatch
+     1>..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc(177): warning C4018: '<=': signed/unsigned mismatch
+         repeated_field.cc
+         atomicops_internals_x86_gcc.cc
+         atomicops_internals_x86_msvc.cc
+         common.cc
+         once.cc
+         stringprintf.cc
+     1>..\lib\protobuf-lite\google\protobuf\stubs\common.cc(377): warning C4018: '<': signed/unsigned mismatch
+     1>..\lib\protobuf-lite\google\protobuf\stubs\stringprintf.cc(152): warning C4018: '<': signed/unsigned mismatch
+         wire_format_lite.cc
+         ConfigParser.cpp
+         ConnectWaitLayer.cpp
+         ConsoleCommand.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl' (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(785): note: see reference to function template instantiation '_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 [],
+                     Element=google::protobuf::uint64,
+                     _InIt=const google::protobuf::uint64 []
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(784): note: while compiling class template member function 'void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): note: see reference to function template instantiation 'void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): note: see reference to class template instantiation 'google::protobuf::internal::ElementCopier<Element,false>' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(776): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(771): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(770): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(757): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ] (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(749): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)' (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(631): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)' being compiled (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(590): note: while compiling class template member function 'int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const' (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(270): note: see reference to function template instantiation 'int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const' being compiled (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(250): note: see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::uint64>' being compiled (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(303): note: see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)' being compiled (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl' (compiling source file ..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+         FileServer.cpp
+     1>..\lib\runtime\ConfigParser.cpp(108): warning C4018: '<': signed/unsigned mismatch
+     1>..\lib\runtime\FileServer.cpp(145): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'WCHAR *'
+         ..\lib\runtime\FileServer.cpp(145): note: consider using '%ls' in the format string
+         ..\lib\runtime\FileServer.cpp(145): note: consider using '%lls' in the format string
+         ..\lib\runtime\FileServer.cpp(145): note: consider using '%Ls' in the format string
+         ..\lib\runtime\FileServer.cpp(145): note: consider using '%ws' in the format string
+         Landscape_png.cpp
+         PlayDisable_png.cpp
+         PlayEnable_png.cpp
+         Portrait_png.cpp
+         Protos.pb.cc
+         Runtime.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (compiling source file ..\lib\runtime\Protos.pb.cc)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl' (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(785): note: see reference to function template instantiation '_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(784): note: while compiling class template member function 'void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): note: see reference to function template instantiation 'void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): note: see reference to class template instantiation 'google::protobuf::internal::ElementCopier<Element,false>' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(776): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(771): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(770): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)'
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(757): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)' being compiled
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ] (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(749): note: while compiling class template member function 'void google::protobuf::RepeatedField<google::protobuf::int64>::Reserve(int)' (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(631): note: see reference to function template instantiation 'void google::protobuf::RepeatedField<google::protobuf::int64>::Reserve(int)' being compiled (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(590): note: while compiling class template member function 'int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const' (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(270): note: see reference to function template instantiation 'int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const' being compiled (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(250): note: see reference to class template instantiation 'google::protobuf::RepeatedField<google::protobuf::int64>' being compiled (compiling source file ..\lib\runtime\Protos.pb.cc)
+         D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(305): note: see reference to function template instantiation 'bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::int64> *)' being compiled (compiling source file ..\lib\runtime\Protos.pb.cc)
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: see declaration of 'std::_Copy_impl' (compiling source file ..\lib\runtime\Protos.pb.cc)
+         RuntimeCCSImpl.cpp
+         RuntimeProtocol.cpp
+         Shine_png.cpp
+         VisibleRect.cpp
+         Runtime_win32.cpp
+         stdafx.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libsimulator.lib" /NOLOGO Debug.win32\CCHTTPRequest.obj
+         "Debug.win32\DeviceEx-win32.obj"
+         Debug.win32\PlayerEditBoxServiceWin.obj
+         Debug.win32\PlayerFileDialogServiceWin.obj
+         Debug.win32\PlayerMenuServiceWin.obj
+         Debug.win32\PlayerMessageBoxServiceWin.obj
+         Debug.win32\PlayerTaskServiceWin.obj
+         Debug.win32\PlayerWin.obj
+         Debug.win32\ProjectConfig.obj
+         Debug.win32\SimulatorConfig.obj
+         Debug.win32\AppEvent.obj
+         Debug.win32\AppLang.obj
+         Debug.win32\PlayerMenuServiceProtocol.obj
+         Debug.win32\PlayerProtocol.obj
+         Debug.win32\PlayerServiceProtocol.obj
+         Debug.win32\PlayerSettings.obj
+         Debug.win32\PlayerTaskServiceProtocol.obj
+         Debug.win32\PlayerUtils.obj
+         Debug.win32\extension_set.obj
+         Debug.win32\generated_message_util.obj
+         Debug.win32\coded_stream.obj
+         Debug.win32\zero_copy_stream.obj
+         Debug.win32\zero_copy_stream_impl_lite.obj
+         Debug.win32\message_lite.obj
+         Debug.win32\repeated_field.obj
+         Debug.win32\atomicops_internals_x86_gcc.obj
+         Debug.win32\atomicops_internals_x86_msvc.obj
+         Debug.win32\common.obj
+         Debug.win32\once.obj
+         Debug.win32\stringprintf.obj
+         Debug.win32\wire_format_lite.obj
+         Debug.win32\ConfigParser.obj
+         Debug.win32\ConnectWaitLayer.obj
+         Debug.win32\ConsoleCommand.obj
+         Debug.win32\FileServer.obj
+         Debug.win32\Landscape_png.obj
+         Debug.win32\PlayDisable_png.obj
+         Debug.win32\PlayEnable_png.obj
+         Debug.win32\Portrait_png.obj
+         Debug.win32\Protos.pb.obj
+         Debug.win32\Runtime.obj
+         Debug.win32\RuntimeCCSImpl.obj
+         Debug.win32\RuntimeProtocol.obj
+         Debug.win32\Shine_png.obj
+         Debug.win32\VisibleRect.obj
+         Debug.win32\Runtime_win32.obj
+         Debug.win32\stdafx.obj
+     1>atomicops_internals_x86_gcc.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>PlayerUtils.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libsimulator.vcxproj -> D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libsimulator.lib
+     1>Done Building Project "D:\project\TotalWars\frameworks\cocos2d-x\tools\simulator\libsimulator\proj.win32\libsimulator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:03:03.85
