@@ -218,7 +218,7 @@ bool EventManager::VUpdate(unsigned long maxMillis)
 		}
 
         // check to see if time ran out
-		currMs = GetTickCount();
+		currMs = getTimeMs();
 		if (maxMillis != IEventManager::kINFINITE && currMs >= maxMs)
         {
 			break;

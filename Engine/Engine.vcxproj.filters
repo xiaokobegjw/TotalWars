@@ -16,6 +16,15 @@
     <Filter Include="eventmanager">
       <UniqueIdentifier>{21edec08-c825-44ae-95ef-facec9f7c05c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LUAScripting">
+      <UniqueIdentifier>{90829e63-3ac8-415e-8dc2-a5380ee5b8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{5e2d4a15-7af8-4347-9f3a-aca22724f349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\LuaPlus">
+      <UniqueIdentifier>{2eed67b8-be89-4827-b7cf-6e90a4efebf9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\time_utils.h">
@@ -81,6 +90,70 @@
     <ClInclude Include="eventmanager\concurrentqueue.h">
       <Filter>eventmanager</Filter>
     </ClInclude>
+    <ClInclude Include="LUAScripting\LuaStateManager.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAScripting\ScriptEvent.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAScripting\ScriptExports.h">
+      <Filter>LUAScripting</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaAutoBlock.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaCall.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaFunction.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaHelper.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaHelper_Object.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaHelper_StackObject.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaObject.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlus.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlusCD.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlusConfig.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlusInternal.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaStackObject.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaStackTableIterator.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaState.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaStateCD.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaStateOutFile.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaStateOutString.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\LuaPlus\LuaTableIterator.h">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="debug.cpp" />
@@ -109,10 +182,43 @@
     <ClCompile Include="eventmanager\EventManagerImpl.cpp">
       <Filter>eventmanager</Filter>
     </ClCompile>
+    <ClCompile Include="LUAScripting\LuaStateManager.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="LUAScripting\ScriptEvent.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="LUAScripting\ScriptExports.cpp">
+      <Filter>LUAScripting</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\LuaPlus\LuaPlus.cpp">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\LuaPlus\LuaPlusAddons.c">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdParty\LuaPlus\LuaState_DumpObject.cpp">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="math2d\mathutil.inl">
       <Filter>math2d</Filter>
+    </None>
+    <None Include="3rdParty\LuaPlus\LuaCall.inl">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </None>
+    <None Include="3rdParty\LuaPlus\LuaObject.inl">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </None>
+    <None Include="3rdParty\LuaPlus\LuaStackObject.inl">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </None>
+    <None Include="3rdParty\LuaPlus\LuaStackTableIterator.inl">
+      <Filter>3rdParty\LuaPlus</Filter>
+    </None>
+    <None Include="3rdParty\LuaPlus\LuaState.inl">
+      <Filter>3rdParty\LuaPlus</Filter>
     </None>
   </ItemGroup>
 </Project>

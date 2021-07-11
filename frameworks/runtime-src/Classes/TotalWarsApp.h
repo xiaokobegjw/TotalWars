@@ -12,4 +12,7 @@ public:
 	bool init() override;
 
 	std::string getResPath() override;
+
+private:
+	bool init_lua_manager() override;
 };

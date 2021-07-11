@@ -4,6 +4,8 @@
 #include "settings.h"
 #include "utils/macros.h"
 #include "unittest/test.h"
+#include "LUAScripting/LuaStateManager.h"
+#include "LUAScripting/ScriptExports.h"
 #include "eventmanager/EventManagerImpl.h"
 
 std::shared_ptr<BaseApp> g_pApp = nullptr;
@@ -22,13 +24,15 @@ BaseApp::~BaseApp()
 
 bool BaseApp::init()
 {
-	g_logger.registerThread("Main");
-	g_logger.addOutputMaxLevel(&stderr_output, LL_ACTION);
-
 	if (!init_setting())
 		return false;
 
 	init_log_streams();
+
+	if (!init_lua_manager())
+		return false;
+
+	registerLuaFunc();
 
 	m_pEventManger = std::make_shared<EventManager>("GameCodeApp Event Mgr", true);
 	if (!m_pEventManger)
@@ -59,7 +63,6 @@ bool BaseApp::init_setting()
 	bool r = g_settings->readConfigFile((resPath + "setting.txt").c_str());
 	if (!r)
 	{
-		errorstream << "failed to read setting.txt" << std::endl;
 		return false;
 	}
 
@@ -68,6 +71,9 @@ bool BaseApp::init_setting()
 
 void BaseApp::init_log_streams()
 {
+	g_logger.registerThread("Main");
+	g_logger.addOutputMaxLevel(&stderr_output, LL_ACTION);
+
 	std::string log_filename = g_settings->get("logfile");
 
 	g_logger.removeOutput(&file_log_output);
@@ -100,4 +106,21 @@ void BaseApp::init_log_streams()
 	file_log_output.setFile(log_filename,
 		g_settings->getU64("debug_log_size_max") * 1000000);
 	g_logger.addOutputMaxLevel(&file_log_output, log_level);
+}
+
+bool BaseApp::init_lua_manager()
+{
+	// Rez up the Lua State manager now, and run the initial script - discussed in Chapter 5, page 144.
+	if (!LuaStateManager::Create())
+	{
+		errorstream << ("Failed to initialize Lua");
+		return false;
+	}
+
+	return true;
+}
+
+void BaseApp::registerLuaFunc()
+{
+	ScriptExports::Register();
 }

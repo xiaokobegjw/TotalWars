@@ -9,3 +9,6 @@ Engine/Debug/
 frameworks/runtime-src/proj.win32/Debug.win32/
 frameworks/runtime-src/proj.win32/TotalWars.VC.db
 frameworks/runtime-src/proj.win32/TotalWars.VC.VC.opendb
+TWLog.txt
+simulator/win32/TotalWars.exe
+simulator/win32/TotalWars.ilk

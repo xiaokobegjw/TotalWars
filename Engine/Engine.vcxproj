@@ -76,7 +76,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);E:\projects\TotalWars\frameworks\cocos2d-x\external\lua\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -122,6 +122,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="3rdParty\LuaPlus\LuaAutoBlock.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaCall.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaFunction.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaHelper.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaHelper_Object.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaHelper_StackObject.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaObject.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlus.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlusCD.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlusConfig.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaPlusInternal.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaStackObject.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaStackTableIterator.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaState.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaStateCD.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaStateOutFile.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaStateOutString.h" />
+    <ClInclude Include="3rdParty\LuaPlus\LuaTableIterator.h" />
     <ClInclude Include="BaseApp.h" />
     <ClInclude Include="debug.h" />
     <ClInclude Include="eventmanager\concurrentqueue.h" />
@@ -131,7 +149,11 @@
     <ClInclude Include="eventmanager\FastDelegateBind.h" />
     <ClInclude Include="exceptions.h" />
     <ClInclude Include="filesys.h" />
+    <ClInclude Include="interfaces.h" />
     <ClInclude Include="log.h" />
+    <ClInclude Include="LUAScripting\LuaStateManager.h" />
+    <ClInclude Include="LUAScripting\ScriptEvent.h" />
+    <ClInclude Include="LUAScripting\ScriptExports.h" />
     <ClInclude Include="math2d\math2d.h" />
     <ClInclude Include="math2d\mathutil.h" />
     <ClInclude Include="math2d\matrix2d.h" />
@@ -149,12 +171,18 @@
     <ClInclude Include="utils\time_utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="3rdParty\LuaPlus\LuaPlus.cpp" />
+    <ClCompile Include="3rdParty\LuaPlus\LuaPlusAddons.c" />
+    <ClCompile Include="3rdParty\LuaPlus\LuaState_DumpObject.cpp" />
     <ClCompile Include="BaseApp.cpp" />
     <ClCompile Include="debug.cpp" />
     <ClCompile Include="eventmanager\EventManager.cpp" />
     <ClCompile Include="eventmanager\EventManagerImpl.cpp" />
     <ClCompile Include="filesys.cpp" />
     <ClCompile Include="log.cpp" />
+    <ClCompile Include="LUAScripting\LuaStateManager.cpp" />
+    <ClCompile Include="LUAScripting\ScriptEvent.cpp" />
+    <ClCompile Include="LUAScripting\ScriptExports.cpp" />
     <ClCompile Include="math2d\mathutil.cpp" />
     <ClCompile Include="math2d\vector2d.cpp" />
     <ClCompile Include="settings.cpp" />
@@ -163,6 +191,11 @@
     <ClCompile Include="utils\time_utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="3rdParty\LuaPlus\LuaCall.inl" />
+    <None Include="3rdParty\LuaPlus\LuaObject.inl" />
+    <None Include="3rdParty\LuaPlus\LuaStackObject.inl" />
+    <None Include="3rdParty\LuaPlus\LuaStackTableIterator.inl" />
+    <None Include="3rdParty\LuaPlus\LuaState.inl" />
     <None Include="math2d\mathutil.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
