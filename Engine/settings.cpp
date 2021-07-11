@@ -12,7 +12,6 @@
 #include <algorithm>
 
 Settings *g_settings = nullptr; // Populated in main()
-std::string g_settings_path;
 
 Settings *Settings::s_layers[SL_TOTAL_COUNT] = {0}; // Zeroed by compiler
 std::unordered_map<std::string, const FlagDesc *> Settings::s_flags;

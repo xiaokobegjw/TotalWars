@@ -1,405 +1,316 @@
-﻿Build started 2021/7/8 14:19:53.
-     1>Project "D:\project\TotalWars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\proj.win32\libluacocos2d.vcxproj" on node 3 (Build target(s)).
-     1>PreBuildEvent:
-         if not exist "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
-         xcopy /Y /Q "D:\project\TotalWars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\proj.win32\..\..\..\..\external\lua\luajit\prebuilt\win32\*.*" "D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\"
-         :VCEnd
-         复制了 2 个文件
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua\tolua" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua\luajit\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\libwebsockets\win32\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\extensions" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\bullet\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\bullet\include\bullet" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos/editor-support" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\openssl\include\win32" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _USRLUASTATIC /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\libluacocos2d\\" /Fd"Debug.win32\libluacocos2d\libluacocos2d.pdb" /Gd /TC /wd4800 /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\..\..\external\lua\luasocket\auxiliar.c ..\..\..\..\external\lua\luasocket\buffer.c ..\..\..\..\external\lua\luasocket\except.c ..\..\..\..\external\lua\luasocket\inet.c ..\..\..\..\external\lua\luasocket\io.c ..\..\..\..\external\lua\luasocket\luasocket.c ..\..\..\..\external\lua\luasocket\luasocket_scripts.c ..\..\..\..\external\lua\luasocket\mime.c ..\..\..\..\external\lua\luasocket\options.c ..\..\..\..\external\lua\luasocket\select.c ..\..\..\..\external\lua\luasocket\tcp.c ..\..\..\..\external\lua\luasocket\timeout.c ..\..\..\..\external\lua\luasocket\udp.c ..\..\..\..\external\lua\luasocket\wsocket.c ..\..\..\..\external\lua\tolua\tolua_event.c ..\..\..\..\external\lua\tolua\tolua_is.c ..\..\..\..\external\lua\tolua\tolua_map.c ..\..\..\..\external\lua\tolua\tolua_push.c ..\..\..\..\external\lua\tolua\tolua_to.c ..\manual\network\lua_extensions.c
-         auxiliar.c
-         buffer.c
-         except.c
-         inet.c
-         io.c
-         luasocket.c
-         luasocket_scripts.c
-         mime.c
-         options.c
-         select.c
-         tcp.c
-         timeout.c
-     1>..\..\..\..\external\lua\luasocket\inet.c(254): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
-     1>..\..\..\..\external\lua\luasocket\inet.c(288): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
-         udp.c
-         wsocket.c
-         tolua_event.c
-         tolua_is.c
-         tolua_map.c
-         tolua_push.c
-         tolua_to.c
-         lua_extensions.c
-     1>..\..\..\..\external\lua\luasocket\udp.c(181): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
-     1>..\..\..\..\external\lua\luasocket\udp.c(251): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
-     1>..\..\..\..\external\lua\luasocket\wsocket.c(431): warning C4133: 'return': incompatible types - from 'WCHAR *' to 'const char *'
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua\tolua" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\lua\luajit\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\libwebsockets\win32\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\extensions" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\bullet\include" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\bullet\include\bullet" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\cocos/editor-support" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\freetype2\include\win32\\" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external" /I"D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d\..\..\external\openssl\include\win32" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _USRLUASTATIC /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\libluacocos2d\\" /Fd"Debug.win32\libluacocos2d\libluacocos2d.pdb" /Gd /TP /wd4800 /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\..\..\external\xxtea\xxtea.cpp ..\auto\lua_cocos2dx_3d_auto.cpp ..\auto\lua_cocos2dx_audioengine_auto.cpp ..\auto\lua_cocos2dx_auto.cpp ..\auto\lua_cocos2dx_cocosbuilder_auto.cpp ..\auto\lua_cocos2dx_cocosdenshion_auto.cpp ..\auto\lua_cocos2dx_csloader_auto.cpp ..\auto\lua_cocos2dx_experimental_auto.cpp ..\auto\lua_cocos2dx_experimental_video_auto.cpp ..\auto\lua_cocos2dx_experimental_webview_auto.cpp ..\auto\lua_cocos2dx_extension_auto.cpp ..\auto\lua_cocos2dx_navmesh_auto.cpp ..\auto\lua_cocos2dx_physics3d_auto.cpp ..\auto\lua_cocos2dx_physics_auto.cpp ..\auto\lua_cocos2dx_spine_auto.cpp ..\auto\lua_cocos2dx_studio_auto.cpp ..\auto\lua_cocos2dx_ui_auto.cpp ..\manual\3d\lua_cocos2dx_3d_manual.cpp ..\manual\audioengine\lua_cocos2dx_audioengine_manual.cpp ..\manual\CCLuaBridge.cpp ..\manual\CCLuaEngine.cpp ..\manual\CCLuaStack.cpp ..\manual\CCLuaValue.cpp ..\manual\Cocos2dxLuaLoader.cpp ..\manual\cocos2d\LuaOpengl.cpp ..\manual\cocos2d\LuaScriptHandlerMgr.cpp ..\manual\CCComponentLua.cpp ..\manual\cocos2d\lua_cocos2dx_deprecated.cpp ..\manual\cocos2d\lua_cocos2dx_experimental_manual.cpp ..\manual\cocos2d\lua_cocos2dx_manual.cpp ..\manual\cocos2d\lua_cocos2dx_physics_manual.cpp ..\manual\cocosbuilder\CCBProxy.cpp ..\manual\cocosbuilder\lua_cocos2dx_cocosbuilder_manual.cpp ..\manual\cocosdenshion\lua_cocos2dx_cocosdenshion_manual.cpp ..\manual\cocostudio\CustomGUIReader.cpp "..\manual\cocostudio\lua-cocos-studio-conversions.cpp" ..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.cpp ..\manual\cocostudio\lua_cocos2dx_csloader_manual.cpp ..\manual\extension\lua_cocos2dx_extension_manual.cpp ..\manual\LuaBasicConversions.cpp ..\manual\lua_module_register.cpp ..\manual\navmesh\lua_cocos2dx_navmesh_conversions.cpp ..\manual\navmesh\lua_cocos2dx_navmesh_manual.cpp ..\manual\network\lua_cocos2dx_network_manual.cpp ..\manual\network\Lua_web_socket.cpp ..\manual\network\lua_xml_http_request.cpp ..\manual\physics3d\lua_cocos2dx_physics3d_manual.cpp ..\manual\spine\LuaSkeletonAnimation.cpp ..\manual\spine\lua_cocos2dx_spine_manual.cpp ..\manual\tolua_fix.cpp ..\manual\ui\lua_cocos2dx_experimental_video_manual.cpp ..\manual\ui\lua_cocos2dx_experimental_webview_manual.cpp ..\manual\ui\lua_cocos2dx_ui_manual.cpp
-         xxtea.cpp
-         lua_cocos2dx_3d_auto.cpp
-         lua_cocos2dx_audioengine_auto.cpp
-         lua_cocos2dx_auto.cpp
-         lua_cocos2dx_cocosbuilder_auto.cpp
-         lua_cocos2dx_cocosdenshion_auto.cpp
-         lua_cocos2dx_csloader_auto.cpp
-         lua_cocos2dx_experimental_auto.cpp
-         lua_cocos2dx_experimental_video_auto.cpp
-         lua_cocos2dx_experimental_webview_auto.cpp
-         lua_cocos2dx_extension_auto.cpp
-         lua_cocos2dx_navmesh_auto.cpp
-         lua_cocos2dx_physics3d_auto.cpp
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(90): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(5377): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(5773): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(6408): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(6506): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(6557): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(196): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(201): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(218): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_3d_auto.cpp(6611): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(362): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(371): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(387): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(536): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(673): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(13552): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(13594): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(17860): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(21418): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(21439): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(22293): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(22440): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(22491): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(28202): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(28314): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(30816): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(35918): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(84973): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(86107): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(86136): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_auto.cpp(103935): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_navmesh_auto.cpp(521): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_navmesh_auto.cpp(1190): warning C4083: expected '('; found identifier 'NO'
-     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\auto\lua_cocos2dx_physics3d_auto.cpp)
-         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\auto\lua_cocos2dx_physics3d_auto.cpp)
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_navmesh_auto.cpp(1197): warning C4700: uninitialized local variable 'arg0' used
-         lua_cocos2dx_physics_auto.cpp
-     1>..\auto\lua_cocos2dx_physics3d_auto.cpp(591): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_physics3d_auto.cpp(646): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_physics3d_auto.cpp(934): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_physics3d_auto.cpp(2140): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_physics3d_auto.cpp(5179): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_physics3d_auto.cpp(5554): warning C4083: expected '('; found identifier 'NO'
-         lua_cocos2dx_spine_auto.cpp
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_3d_auto.cpp(6415): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_3d_auto.cpp(6618): warning C4700: uninitialized local variable 'arg1' used
-     1>..\auto\lua_cocos2dx_extension_auto.cpp(16260): warning C4083: expected '('; found identifier 'NO'
-         lua_cocos2dx_studio_auto.cpp
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp(598): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp(2147): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp(5561): warning C4700: uninitialized local variable 'arg0' used
-         lua_cocos2dx_ui_auto.cpp
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(17872): warning C4700: uninitialized local variable 'arg2' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(21422): warning C4700: uninitialized local variable 'arg2' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(21443): warning C4700: uninitialized local variable 'arg2' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(22302): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(22447): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(30823): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(35925): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_extension_auto.cpp(16267): warning C4700: uninitialized local variable 'arg0' used
-         lua_cocos2dx_3d_manual.cpp
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(4653): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(6568): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(6759): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(7807): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(8423): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(8470): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(8651): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(8748): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(9141): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(11216): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(13459): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(13938): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(20063): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(20207): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(20679): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(20934): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(21028): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(180): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(196): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(333): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(350): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(485): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(24107): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(502): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(950): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1020): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1037): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1104): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1120): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1155): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1175): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1314): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1378): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1422): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1536): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1648): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(1760): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(2088): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(2226): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(2243): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(2354): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_spine_auto.cpp(2371): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(32886): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(33125): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(33567): warning C4083: expected '('; found identifier 'NO'
-     1>..\auto\lua_cocos2dx_ui_auto.cpp(33822): warning C4083: expected '('; found identifier 'NO'
-         lua_cocos2dx_audioengine_manual.cpp
-     1>..\auto\lua_cocos2dx_physics_auto.cpp(4953): warning C4083: expected '('; found identifier 'NO'
-         CCLuaBridge.cpp
-     1>..\manual\3d\lua_cocos2dx_3d_manual.cpp(211): warning C4996: 'lua_cocos2dx_3d_Sprite3D_setBlendFunc01': was declared deprecated
-         ..\manual\3d\lua_cocos2dx_3d_manual.cpp(34): note: see declaration of 'lua_cocos2dx_3d_Sprite3D_setBlendFunc01'
-     1>..\manual\3d\lua_cocos2dx_3d_manual.cpp(1852): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\3d\lua_cocos2dx_3d_manual.cpp(1871): warning C4018: '<=': signed/unsigned mismatch
-         CCLuaEngine.cpp
-         CCLuaStack.cpp
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(187): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(205): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(337): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(358): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(489): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(510): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1023): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1043): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1327): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1435): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1108): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1128): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1159): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1183): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1549): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1661): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1773): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2101): warning C4700: uninitialized local variable 'arg0' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2229): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2249): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2357): warning C4700: uninitialized local variable 'arg1' used
-     1>d:\project\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2377): warning C4700: uninitialized local variable 'arg1' used
-         CCLuaValue.cpp
-         Cocos2dxLuaLoader.cpp
-         LuaOpengl.cpp
-         LuaScriptHandlerMgr.cpp
-         CCComponentLua.cpp
-         lua_cocos2dx_deprecated.cpp
-         lua_cocos2dx_experimental_manual.cpp
-     1>..\manual\cocos2d\LuaOpengl.cpp(4435): warning C4996: 'cocos2d::DrawPrimitives::drawPoint': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(100): note: see declaration of 'cocos2d::DrawPrimitives::drawPoint'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4470): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\LuaOpengl.cpp(4488): warning C4996: 'cocos2d::DrawPrimitives::drawPoints': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(108): note: see declaration of 'cocos2d::DrawPrimitives::drawPoints'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4523): warning C4996: 'cocos2d::DrawPrimitives::drawLine': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(115): note: see declaration of 'cocos2d::DrawPrimitives::drawLine'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4556): warning C4996: 'cocos2d::DrawPrimitives::drawRect': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(123): note: see declaration of 'cocos2d::DrawPrimitives::drawRect'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4596): warning C4996: 'cocos2d::DrawPrimitives::drawSolidRect': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(133): note: see declaration of 'cocos2d::DrawPrimitives::drawSolidRect'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4632): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\LuaOpengl.cpp(4650): warning C4996: 'cocos2d::DrawPrimitives::drawPoly': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(142): note: see declaration of 'cocos2d::DrawPrimitives::drawPoly'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4686): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\LuaOpengl.cpp(4712): warning C4996: 'cocos2d::DrawPrimitives::drawSolidPoly': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(150): note: see declaration of 'cocos2d::DrawPrimitives::drawSolidPoly'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4756): warning C4996: 'cocos2d::DrawPrimitives::drawCircle': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(162): note: see declaration of 'cocos2d::DrawPrimitives::drawCircle'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4794): warning C4996: 'cocos2d::DrawPrimitives::drawSolidCircle': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(183): note: see declaration of 'cocos2d::DrawPrimitives::drawSolidCircle'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4836): warning C4996: 'cocos2d::DrawPrimitives::drawQuadBezier': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(203): note: see declaration of 'cocos2d::DrawPrimitives::drawQuadBezier'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4883): warning C4996: 'cocos2d::DrawPrimitives::drawCubicBezier': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(215): note: see declaration of 'cocos2d::DrawPrimitives::drawCubicBezier'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4929): warning C4996: 'cocos2d::DrawPrimitives::drawCatmullRom': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(224): note: see declaration of 'cocos2d::DrawPrimitives::drawCatmullRom'
-     1>..\manual\cocos2d\LuaOpengl.cpp(4975): warning C4996: 'cocos2d::DrawPrimitives::drawCardinalSpline': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(234): note: see declaration of 'cocos2d::DrawPrimitives::drawCardinalSpline'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5007): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(245): note: see declaration of 'cocos2d::DrawPrimitives::setDrawColor4B'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5039): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4F': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(256): note: see declaration of 'cocos2d::DrawPrimitives::setDrawColor4F'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5065): warning C4996: 'cocos2d::DrawPrimitives::setPointSize': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(263): note: see declaration of 'cocos2d::DrawPrimitives::setPointSize'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5090): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawPoint00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4421): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawPoint00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5091): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawPoints00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4449): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawPoints00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5092): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawLine00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4503): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawLine00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5093): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawRect00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4536): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawRect00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5094): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawSolidRect00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4569): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawSolidRect00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5095): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawPoly00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4609): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawPoly00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5096): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawSolidPoly00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4665): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawSolidPoly00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5097): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCircle00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4727): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCircle00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5098): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawSolidCircle00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4769): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawSolidCircle00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5099): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawQuadBezier00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4808): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawQuadBezier00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5100): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCubicBezier00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4849): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCubicBezier00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5101): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCatmullRom00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4896): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCatmullRom00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5102): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCardinalSpline00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4942): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCardinalSpline00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5103): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawColor4B00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(4988): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawColor4B00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5104): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawColor4F00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(5020): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawColor4F00'
-     1>..\manual\cocos2d\LuaOpengl.cpp(5105): warning C4996: 'tolua_cocos2d_DrawPrimitives_setPointSize00': was declared deprecated
-         ..\manual\cocos2d\LuaOpengl.cpp(5052): note: see declaration of 'tolua_cocos2d_DrawPrimitives_setPointSize00'
-         lua_cocos2dx_manual.cpp
-         lua_cocos2dx_physics_manual.cpp
-         CCBProxy.cpp
-     1>..\manual\cocos2d\lua_cocos2dx_deprecated.cpp(1530): warning C4018: '<': signed/unsigned mismatch
-         lua_cocos2dx_cocosbuilder_manual.cpp
-         lua_cocos2dx_cocosdenshion_manual.cpp
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(301): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(450): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(1783): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(2591): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(2986): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(3072): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(3151): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(3359): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(3399): warning C4018: '<': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(4064): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(4138): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(4213): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(4286): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(4361): warning C4018: '<=': signed/unsigned mismatch
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5118): warning C4996: 'tolua_cocos2dx_DrawNode_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3578): note: see declaration of 'tolua_cocos2dx_DrawNode_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5305): warning C4996: 'tolua_cocos2dx_Sprite_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3487): note: see declaration of 'tolua_cocos2dx_Sprite_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5320): warning C4996: 'tolua_cocos2dx_LayerColor_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3552): note: see declaration of 'tolua_cocos2dx_LayerColor_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5346): warning C4996: 'tolua_cocos2dx_ParticleSystem_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3565): note: see declaration of 'tolua_cocos2dx_ParticleSystem_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5393): warning C4996: 'tolua_cocos2dx_SpriteBatchNode_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3500): note: see declaration of 'tolua_cocos2dx_SpriteBatchNode_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5406): warning C4996: 'tolua_cocos2dx_MotionStreak_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3513): note: see declaration of 'tolua_cocos2dx_MotionStreak_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5419): warning C4996: 'tolua_cocos2dx_AtlasNode_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3526): note: see declaration of 'tolua_cocos2dx_AtlasNode_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(5432): warning C4996: 'tolua_cocos2dx_ParticleBatchNode_setBlendFunc01': was declared deprecated
-         ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3539): note: see declaration of 'tolua_cocos2dx_ParticleBatchNode_setBlendFunc01'
-     1>..\manual\cocos2d\lua_cocos2dx_manual.cpp(7249): warning C4018: '<=': signed/unsigned mismatch
-         CustomGUIReader.cpp
-         lua-cocos-studio-conversions.cpp
-         lua_cocos2dx_coco_studio_manual.cpp
-         lua_cocos2dx_csloader_manual.cpp
-         lua_cocos2dx_extension_manual.cpp
-         LuaBasicConversions.cpp
-     1>..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.cpp(386): warning C4996: 'cocostudio::Bone::getIgnoreMovementBoneData': was declared deprecated
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CCBone.h(194): note: see declaration of 'cocostudio::Bone::getIgnoreMovementBoneData'
-         D:\project\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CCBone.h(194): note: see declaration of 'cocostudio::Bone::getIgnoreMovementBoneData'
-         lua_module_register.cpp
-         lua_cocos2dx_navmesh_conversions.cpp
-         lua_cocos2dx_navmesh_manual.cpp
-         lua_cocos2dx_network_manual.cpp
-         Lua_web_socket.cpp
-         lua_xml_http_request.cpp
-         lua_cocos2dx_physics3d_manual.cpp
-         LuaSkeletonAnimation.cpp
-     1>..\manual\network\lua_xml_http_request.cpp(313): warning C4102: 'tolua_lerror': unreferenced label
-     1>..\manual\network\lua_xml_http_request.cpp(694): warning C4018: '<': signed/unsigned mismatch
-         lua_cocos2dx_spine_manual.cpp
-         tolua_fix.cpp
-         lua_cocos2dx_experimental_video_manual.cpp
-         lua_cocos2dx_experimental_webview_manual.cpp
-         lua_cocos2dx_ui_manual.cpp
-     1>d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\manual\physics3d\lua_cocos2dx_physics3d_manual.cpp)
-         d:\project\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\manual\physics3d\lua_cocos2dx_physics3d_manual.cpp)
-     1>..\manual\spine\lua_cocos2dx_spine_manual.cpp(509): warning C4996: 'tolua_spine_SkeletoneAnimation_setBlendFunc': was declared deprecated
-         ..\manual\spine\lua_cocos2dx_spine_manual.cpp(356): note: see declaration of 'tolua_spine_SkeletoneAnimation_setBlendFunc'
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libluacocos2d.lib" /NOLOGO Debug.win32\libluacocos2d\auxiliar.obj
-         Debug.win32\libluacocos2d\buffer.obj
-         Debug.win32\libluacocos2d\except.obj
-         Debug.win32\libluacocos2d\inet.obj
-         Debug.win32\libluacocos2d\io.obj
-         Debug.win32\libluacocos2d\luasocket.obj
-         Debug.win32\libluacocos2d\luasocket_scripts.obj
-         Debug.win32\libluacocos2d\mime.obj
-         Debug.win32\libluacocos2d\options.obj
-         Debug.win32\libluacocos2d\select.obj
-         Debug.win32\libluacocos2d\tcp.obj
-         Debug.win32\libluacocos2d\timeout.obj
-         Debug.win32\libluacocos2d\udp.obj
-         Debug.win32\libluacocos2d\wsocket.obj
-         Debug.win32\libluacocos2d\tolua_event.obj
-         Debug.win32\libluacocos2d\tolua_is.obj
-         Debug.win32\libluacocos2d\tolua_map.obj
-         Debug.win32\libluacocos2d\tolua_push.obj
-         Debug.win32\libluacocos2d\tolua_to.obj
-         Debug.win32\libluacocos2d\xxtea.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_3d_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_audioengine_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_cocosbuilder_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_cocosdenshion_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_csloader_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_experimental_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_experimental_video_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_experimental_webview_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_extension_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_navmesh_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_physics3d_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_physics_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_spine_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_studio_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_ui_auto.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_3d_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_audioengine_manual.obj
-         Debug.win32\libluacocos2d\CCLuaBridge.obj
-         Debug.win32\libluacocos2d\CCLuaEngine.obj
-         Debug.win32\libluacocos2d\CCLuaStack.obj
-         Debug.win32\libluacocos2d\CCLuaValue.obj
-         Debug.win32\libluacocos2d\Cocos2dxLuaLoader.obj
-         Debug.win32\libluacocos2d\LuaOpengl.obj
-         Debug.win32\libluacocos2d\LuaScriptHandlerMgr.obj
-         Debug.win32\libluacocos2d\CCComponentLua.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_deprecated.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_experimental_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_physics_manual.obj
-         Debug.win32\libluacocos2d\CCBProxy.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_cocosbuilder_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_cocosdenshion_manual.obj
-         Debug.win32\libluacocos2d\CustomGUIReader.obj
-         "Debug.win32\libluacocos2d\lua-cocos-studio-conversions.obj"
-         Debug.win32\libluacocos2d\lua_cocos2dx_coco_studio_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_csloader_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_extension_manual.obj
-         Debug.win32\libluacocos2d\LuaBasicConversions.obj
-         Debug.win32\libluacocos2d\lua_module_register.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_navmesh_conversions.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_navmesh_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_network_manual.obj
-         Debug.win32\libluacocos2d\lua_extensions.obj
-         Debug.win32\libluacocos2d\Lua_web_socket.obj
-         Debug.win32\libluacocos2d\lua_xml_http_request.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_physics3d_manual.obj
-         Debug.win32\libluacocos2d\LuaSkeletonAnimation.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_spine_manual.obj
-         Debug.win32\libluacocos2d\tolua_fix.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_experimental_video_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_experimental_webview_manual.obj
-         Debug.win32\libluacocos2d\lua_cocos2dx_ui_manual.obj
-         libluacocos2d.vcxproj -> D:\project\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libluacocos2d.lib
-     1>Done Building Project "D:\project\TotalWars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\proj.win32\libluacocos2d.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:20.05
+﻿  复制了 2 个文件
+  auxiliar.c
+  buffer.c
+  except.c
+  inet.c
+  io.c
+  luasocket.c
+  luasocket_scripts.c
+  mime.c
+  options.c
+  select.c
+  tcp.c
+  timeout.c
+  udp.c
+  wsocket.c
+..\..\..\..\external\lua\luasocket\inet.c(254): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
+..\..\..\..\external\lua\luasocket\inet.c(288): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
+  tolua_event.c
+  tolua_is.c
+  tolua_map.c
+  tolua_push.c
+  tolua_to.c
+..\..\..\..\external\lua\luasocket\wsocket.c(431): warning C4133: 'return': incompatible types - from 'WCHAR *' to 'const char *'
+..\..\..\..\external\lua\luasocket\udp.c(181): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
+..\..\..\..\external\lua\luasocket\udp.c(251): warning C4133: 'function': incompatible types - from 'WCHAR *' to 'const char *'
+  lua_extensions.c
+  xxtea.cpp
+  lua_cocos2dx_3d_auto.cpp
+  lua_cocos2dx_audioengine_auto.cpp
+  lua_cocos2dx_auto.cpp
+  lua_cocos2dx_cocosbuilder_auto.cpp
+  lua_cocos2dx_cocosdenshion_auto.cpp
+  lua_cocos2dx_csloader_auto.cpp
+  lua_cocos2dx_experimental_auto.cpp
+  lua_cocos2dx_experimental_video_auto.cpp
+  lua_cocos2dx_experimental_webview_auto.cpp
+  lua_cocos2dx_extension_auto.cpp
+  lua_cocos2dx_navmesh_auto.cpp
+  lua_cocos2dx_physics3d_auto.cpp
+  lua_cocos2dx_physics_auto.cpp
+  lua_cocos2dx_spine_auto.cpp
+..\auto\lua_cocos2dx_extension_auto.cpp(16260): warning C4083: expected '('; found identifier 'NO'
+  lua_cocos2dx_studio_auto.cpp
+..\auto\lua_cocos2dx_3d_auto.cpp(90): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(196): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(201): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(218): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(362): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(371): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(387): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(536): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(673): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_3d_auto.cpp(5377): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_3d_auto.cpp(5773): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_3d_auto.cpp(6408): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_3d_auto.cpp(6506): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_3d_auto.cpp(6557): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_3d_auto.cpp(6611): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(13552): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(13594): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(17860): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(21418): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(21439): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(22293): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(22440): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(22491): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(28202): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(28314): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(30816): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(35918): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_navmesh_auto.cpp(521): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_navmesh_auto.cpp(1190): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(84973): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(86107): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_auto.cpp(86136): warning C4083: expected '('; found identifier 'NO'
+e:\projects\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\auto\lua_cocos2dx_physics3d_auto.cpp)
+  e:\projects\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\auto\lua_cocos2dx_physics3d_auto.cpp)
+..\auto\lua_cocos2dx_auto.cpp(103935): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_physics3d_auto.cpp(591): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_physics3d_auto.cpp(646): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_physics3d_auto.cpp(934): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_physics3d_auto.cpp(2140): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_physics3d_auto.cpp(5179): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_physics3d_auto.cpp(5554): warning C4083: expected '('; found identifier 'NO'
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_navmesh_auto.cpp(1197): warning C4700: uninitialized local variable 'arg0' used
+  lua_cocos2dx_ui_auto.cpp
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_extension_auto.cpp(16267): warning C4700: uninitialized local variable 'arg0' used
+  lua_cocos2dx_3d_manual.cpp
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_3d_auto.cpp(6415): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_3d_auto.cpp(6618): warning C4700: uninitialized local variable 'arg1' used
+  lua_cocos2dx_audioengine_manual.cpp
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp(598): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp(2147): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp(5561): warning C4700: uninitialized local variable 'arg0' used
+  CCLuaBridge.cpp
+..\auto\lua_cocos2dx_physics_auto.cpp(4953): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(180): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(196): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(333): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(350): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(485): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(502): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(950): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1020): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1037): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1104): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1120): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1155): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1175): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1314): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1378): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1422): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1536): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1648): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(1760): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(2088): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(2226): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(2243): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(2354): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_spine_auto.cpp(2371): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(4653): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(6568): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(6759): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(7807): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(8423): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(8470): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(8651): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(8748): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(9141): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(11216): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(13459): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(13938): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(20063): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(20207): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(20679): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(20934): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(21028): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(24107): warning C4083: expected '('; found identifier 'NO'
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(17872): warning C4700: uninitialized local variable 'arg2' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(21422): warning C4700: uninitialized local variable 'arg2' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(21443): warning C4700: uninitialized local variable 'arg2' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(22302): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(22447): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(30823): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp(35925): warning C4700: uninitialized local variable 'arg1' used
+..\auto\lua_cocos2dx_ui_auto.cpp(32886): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(33125): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(33567): warning C4083: expected '('; found identifier 'NO'
+..\auto\lua_cocos2dx_ui_auto.cpp(33822): warning C4083: expected '('; found identifier 'NO'
+..\manual\3d\lua_cocos2dx_3d_manual.cpp(211): warning C4996: 'lua_cocos2dx_3d_Sprite3D_setBlendFunc01': was declared deprecated
+  ..\manual\3d\lua_cocos2dx_3d_manual.cpp(34): note: see declaration of 'lua_cocos2dx_3d_Sprite3D_setBlendFunc01'
+..\manual\3d\lua_cocos2dx_3d_manual.cpp(1852): warning C4018: '<=': signed/unsigned mismatch
+..\manual\3d\lua_cocos2dx_3d_manual.cpp(1871): warning C4018: '<=': signed/unsigned mismatch
+  CCLuaEngine.cpp
+  CCLuaStack.cpp
+  CCLuaValue.cpp
+  Cocos2dxLuaLoader.cpp
+  LuaOpengl.cpp
+  LuaScriptHandlerMgr.cpp
+  CCComponentLua.cpp
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(187): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(205): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(337): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(358): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(489): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(510): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1327): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1023): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1043): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1108): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1435): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1128): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1159): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1183): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1549): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1661): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(1773): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2101): warning C4700: uninitialized local variable 'arg0' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2229): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2249): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2357): warning C4700: uninitialized local variable 'arg1' used
+e:\projects\totalwars\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.cpp(2377): warning C4700: uninitialized local variable 'arg1' used
+  lua_cocos2dx_deprecated.cpp
+  lua_cocos2dx_experimental_manual.cpp
+  lua_cocos2dx_manual.cpp
+  lua_cocos2dx_physics_manual.cpp
+..\manual\cocos2d\LuaOpengl.cpp(4435): warning C4996: 'cocos2d::DrawPrimitives::drawPoint': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(100): note: see declaration of 'cocos2d::DrawPrimitives::drawPoint'
+..\manual\cocos2d\LuaOpengl.cpp(4470): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\LuaOpengl.cpp(4488): warning C4996: 'cocos2d::DrawPrimitives::drawPoints': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(108): note: see declaration of 'cocos2d::DrawPrimitives::drawPoints'
+..\manual\cocos2d\LuaOpengl.cpp(4523): warning C4996: 'cocos2d::DrawPrimitives::drawLine': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(115): note: see declaration of 'cocos2d::DrawPrimitives::drawLine'
+..\manual\cocos2d\LuaOpengl.cpp(4556): warning C4996: 'cocos2d::DrawPrimitives::drawRect': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(123): note: see declaration of 'cocos2d::DrawPrimitives::drawRect'
+..\manual\cocos2d\LuaOpengl.cpp(4596): warning C4996: 'cocos2d::DrawPrimitives::drawSolidRect': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(133): note: see declaration of 'cocos2d::DrawPrimitives::drawSolidRect'
+..\manual\cocos2d\LuaOpengl.cpp(4632): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\LuaOpengl.cpp(4650): warning C4996: 'cocos2d::DrawPrimitives::drawPoly': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(142): note: see declaration of 'cocos2d::DrawPrimitives::drawPoly'
+..\manual\cocos2d\LuaOpengl.cpp(4686): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\LuaOpengl.cpp(4712): warning C4996: 'cocos2d::DrawPrimitives::drawSolidPoly': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(150): note: see declaration of 'cocos2d::DrawPrimitives::drawSolidPoly'
+..\manual\cocos2d\LuaOpengl.cpp(4756): warning C4996: 'cocos2d::DrawPrimitives::drawCircle': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(162): note: see declaration of 'cocos2d::DrawPrimitives::drawCircle'
+..\manual\cocos2d\LuaOpengl.cpp(4794): warning C4996: 'cocos2d::DrawPrimitives::drawSolidCircle': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(183): note: see declaration of 'cocos2d::DrawPrimitives::drawSolidCircle'
+..\manual\cocos2d\LuaOpengl.cpp(4836): warning C4996: 'cocos2d::DrawPrimitives::drawQuadBezier': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(203): note: see declaration of 'cocos2d::DrawPrimitives::drawQuadBezier'
+..\manual\cocos2d\LuaOpengl.cpp(4883): warning C4996: 'cocos2d::DrawPrimitives::drawCubicBezier': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(215): note: see declaration of 'cocos2d::DrawPrimitives::drawCubicBezier'
+..\manual\cocos2d\LuaOpengl.cpp(4929): warning C4996: 'cocos2d::DrawPrimitives::drawCatmullRom': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(224): note: see declaration of 'cocos2d::DrawPrimitives::drawCatmullRom'
+..\manual\cocos2d\LuaOpengl.cpp(4975): warning C4996: 'cocos2d::DrawPrimitives::drawCardinalSpline': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(234): note: see declaration of 'cocos2d::DrawPrimitives::drawCardinalSpline'
+..\manual\cocos2d\LuaOpengl.cpp(5007): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(245): note: see declaration of 'cocos2d::DrawPrimitives::setDrawColor4B'
+..\manual\cocos2d\LuaOpengl.cpp(5039): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4F': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(256): note: see declaration of 'cocos2d::DrawPrimitives::setDrawColor4F'
+..\manual\cocos2d\LuaOpengl.cpp(5065): warning C4996: 'cocos2d::DrawPrimitives::setPointSize': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\2d/CCDrawingPrimitives.h(263): note: see declaration of 'cocos2d::DrawPrimitives::setPointSize'
+..\manual\cocos2d\LuaOpengl.cpp(5090): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawPoint00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4421): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawPoint00'
+..\manual\cocos2d\LuaOpengl.cpp(5091): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawPoints00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4449): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawPoints00'
+..\manual\cocos2d\LuaOpengl.cpp(5092): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawLine00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4503): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawLine00'
+..\manual\cocos2d\LuaOpengl.cpp(5093): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawRect00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4536): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawRect00'
+..\manual\cocos2d\LuaOpengl.cpp(5094): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawSolidRect00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4569): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawSolidRect00'
+..\manual\cocos2d\LuaOpengl.cpp(5095): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawPoly00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4609): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawPoly00'
+..\manual\cocos2d\LuaOpengl.cpp(5096): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawSolidPoly00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4665): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawSolidPoly00'
+..\manual\cocos2d\LuaOpengl.cpp(5097): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCircle00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4727): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCircle00'
+..\manual\cocos2d\LuaOpengl.cpp(5098): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawSolidCircle00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4769): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawSolidCircle00'
+..\manual\cocos2d\LuaOpengl.cpp(5099): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawQuadBezier00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4808): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawQuadBezier00'
+..\manual\cocos2d\LuaOpengl.cpp(5100): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCubicBezier00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4849): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCubicBezier00'
+..\manual\cocos2d\LuaOpengl.cpp(5101): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCatmullRom00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4896): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCatmullRom00'
+..\manual\cocos2d\LuaOpengl.cpp(5102): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawCardinalSpline00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4942): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawCardinalSpline00'
+..\manual\cocos2d\LuaOpengl.cpp(5103): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawColor4B00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(4988): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawColor4B00'
+..\manual\cocos2d\LuaOpengl.cpp(5104): warning C4996: 'tolua_cocos2d_DrawPrimitives_drawColor4F00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(5020): note: see declaration of 'tolua_cocos2d_DrawPrimitives_drawColor4F00'
+..\manual\cocos2d\LuaOpengl.cpp(5105): warning C4996: 'tolua_cocos2d_DrawPrimitives_setPointSize00': was declared deprecated
+  ..\manual\cocos2d\LuaOpengl.cpp(5052): note: see declaration of 'tolua_cocos2d_DrawPrimitives_setPointSize00'
+  CCBProxy.cpp
+  lua_cocos2dx_cocosbuilder_manual.cpp
+  lua_cocos2dx_cocosdenshion_manual.cpp
+..\manual\cocos2d\lua_cocos2dx_deprecated.cpp(1530): warning C4018: '<': signed/unsigned mismatch
+  CustomGUIReader.cpp
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(301): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(450): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(1783): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(2591): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(2986): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(3072): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(3151): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(3359): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(3399): warning C4018: '<': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(4064): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(4138): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(4213): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(4286): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(4361): warning C4018: '<=': signed/unsigned mismatch
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5118): warning C4996: 'tolua_cocos2dx_DrawNode_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3578): note: see declaration of 'tolua_cocos2dx_DrawNode_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5305): warning C4996: 'tolua_cocos2dx_Sprite_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3487): note: see declaration of 'tolua_cocos2dx_Sprite_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5320): warning C4996: 'tolua_cocos2dx_LayerColor_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3552): note: see declaration of 'tolua_cocos2dx_LayerColor_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5346): warning C4996: 'tolua_cocos2dx_ParticleSystem_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3565): note: see declaration of 'tolua_cocos2dx_ParticleSystem_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5393): warning C4996: 'tolua_cocos2dx_SpriteBatchNode_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3500): note: see declaration of 'tolua_cocos2dx_SpriteBatchNode_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5406): warning C4996: 'tolua_cocos2dx_MotionStreak_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3513): note: see declaration of 'tolua_cocos2dx_MotionStreak_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5419): warning C4996: 'tolua_cocos2dx_AtlasNode_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3526): note: see declaration of 'tolua_cocos2dx_AtlasNode_setBlendFunc01'
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(5432): warning C4996: 'tolua_cocos2dx_ParticleBatchNode_setBlendFunc01': was declared deprecated
+  ..\manual\cocos2d\lua_cocos2dx_manual.cpp(3539): note: see declaration of 'tolua_cocos2dx_ParticleBatchNode_setBlendFunc01'
+  lua-cocos-studio-conversions.cpp
+..\manual\cocos2d\lua_cocos2dx_manual.cpp(7249): warning C4018: '<=': signed/unsigned mismatch
+  lua_cocos2dx_coco_studio_manual.cpp
+  lua_cocos2dx_csloader_manual.cpp
+  lua_cocos2dx_extension_manual.cpp
+  LuaBasicConversions.cpp
+  lua_module_register.cpp
+  lua_cocos2dx_navmesh_conversions.cpp
+  lua_cocos2dx_navmesh_manual.cpp
+  lua_cocos2dx_network_manual.cpp
+..\manual\cocostudio\lua_cocos2dx_coco_studio_manual.cpp(386): warning C4996: 'cocostudio::Bone::getIgnoreMovementBoneData': was declared deprecated
+  E:\projects\TotalWars\frameworks\cocos2d-x\cocos\editor-support/cocostudio/CCBone.h(194): note: see declaration of 'cocostudio::Bone::getIgnoreMovementBoneData'
+  Lua_web_socket.cpp
+  lua_xml_http_request.cpp
+  lua_cocos2dx_physics3d_manual.cpp
+  LuaSkeletonAnimation.cpp
+  lua_cocos2dx_spine_manual.cpp
+  tolua_fix.cpp
+..\manual\network\lua_xml_http_request.cpp(313): warning C4102: 'tolua_lerror': unreferenced label
+..\manual\network\lua_xml_http_request.cpp(694): warning C4018: '<': signed/unsigned mismatch
+  lua_cocos2dx_experimental_video_manual.cpp
+  lua_cocos2dx_experimental_webview_manual.cpp
+  lua_cocos2dx_ui_manual.cpp
+e:\projects\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase': type name first seen using 'class' now seen using 'struct' (compiling source file ..\manual\physics3d\lua_cocos2dx_physics3d_manual.cpp)
+  e:\projects\totalwars\frameworks\cocos2d-x\external\bullet\include\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): note: see declaration of 'btDbvtBroadphase' (compiling source file ..\manual\physics3d\lua_cocos2dx_physics3d_manual.cpp)
+..\manual\spine\lua_cocos2dx_spine_manual.cpp(509): warning C4996: 'tolua_spine_SkeletoneAnimation_setBlendFunc': was declared deprecated
+  ..\manual\spine\lua_cocos2dx_spine_manual.cpp(356): note: see declaration of 'tolua_spine_SkeletoneAnimation_setBlendFunc'
+  libluacocos2d.vcxproj -> E:\projects\TotalWars\frameworks\runtime-src\proj.win32\Debug.win32\libluacocos2d.lib

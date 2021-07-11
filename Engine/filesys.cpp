@@ -721,6 +721,17 @@ const char *GetFilenameFromPath(const char *path)
 	return filename ? filename + 1 : path;
 }
 
+std::string GetDirectoryFromPath(const char*path)
+{
+	std::string spath(path);
+	std::string::size_type pos = spath.find_last_of('/');
+	if (pos != std::string::npos)
+	{
+		spath = spath.substr(0, pos+1);
+	}
+	return spath;
+}
+
 bool safeWriteToFile(const std::string &path, const std::string &content)
 {
 	std::string tmp_file = path + ".~mt";

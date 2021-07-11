@@ -62,8 +62,6 @@ NORETURN extern void sanity_check_fn(
 #define sanity_check(expr) SANITY_CHECK(expr)
 
 
-void debug_set_exception_handler();
-
 /*
 	These should be put into every thread
 */

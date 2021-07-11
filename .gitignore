@@ -5,3 +5,7 @@
 frameworks/runtime-src/proj.win32/.vs/TotalWars/v14/.suo
 *.opensdf
 *.sdf
+Engine/Debug/
+frameworks/runtime-src/proj.win32/Debug.win32/
+frameworks/runtime-src/proj.win32/TotalWars.VC.db
+frameworks/runtime-src/proj.win32/TotalWars.VC.VC.opendb

@@ -1,0 +1,20 @@
+#    Level of logging to be written to debug.txt:
+#    -    <nothing> (no logging)
+#    -    none (messages with no level)
+#    -    error
+#    -    warning
+#    -    action
+#    -    info
+#    -    verbose
+#    type: enum values: , none, error, warning, action, info, verbose
+debug_log_level = action
+
+#    If the file size of debug.txt exceeds the number of megabytes specified in
+#    this setting when it is opened, the file is moved to debug.txt.1,
+#    deleting an older debug.txt.1 if it exists.
+#    debug.txt is only moved if this setting is positive.
+#    type: int
+debug_log_size_max = 50
+logfile = TWLog.txt
+#open unittest
+unittest = true

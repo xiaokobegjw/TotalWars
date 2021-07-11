@@ -104,6 +104,8 @@ std::string AbsolutePath(const std::string &path);
 // delimiter is found.
 const char *GetFilenameFromPath(const char *path);
 
+std::string GetDirectoryFromPath(const char* path);
+
 bool safeWriteToFile(const std::string &path, const std::string &content);
 
 bool ReadFile(const std::string &path, std::string &out);

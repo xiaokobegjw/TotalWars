@@ -13,6 +13,9 @@
     <Filter Include="unittest">
       <UniqueIdentifier>{d885f3d5-def8-4f38-96af-cf3c1042ec5e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="eventmanager">
+      <UniqueIdentifier>{21edec08-c825-44ae-95ef-facec9f7c05c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\time_utils.h">
@@ -57,8 +60,26 @@
       <Filter>unittest</Filter>
     </ClInclude>
     <ClInclude Include="BaseApp.h" />
-    <ClInclude Include="unittest\test_settings.h">
-      <Filter>unittest</Filter>
+    <ClInclude Include="utils\random_utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager\EventManager.h">
+      <Filter>eventmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager\EventManagerImpl.h">
+      <Filter>eventmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager\FastDelegate.h">
+      <Filter>eventmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager\FastDelegateBind.h">
+      <Filter>eventmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\templates.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="eventmanager\concurrentqueue.h">
+      <Filter>eventmanager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -79,11 +100,14 @@
       <Filter>unittest</Filter>
     </ClCompile>
     <ClCompile Include="BaseApp.cpp" />
-    <ClCompile Include="unittest\test_settings.cpp">
-      <Filter>unittest</Filter>
-    </ClCompile>
     <ClCompile Include="utils\time_utils.cpp">
       <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="eventmanager\EventManager.cpp">
+      <Filter>eventmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="eventmanager\EventManagerImpl.cpp">
+      <Filter>eventmanager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

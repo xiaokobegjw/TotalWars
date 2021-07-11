@@ -2,7 +2,7 @@
 #include "scripting/lua-bindings/manual/CCLuaEngine.h"
 #include "cocos2d.h"
 #include "scripting/lua-bindings/manual/lua_module_register.h"
-#include "BaseApp.h"
+#include "TotalWarsApp.h"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -77,23 +77,24 @@ bool AppDelegate::applicationDidFinishLaunching()
     //register custom function
     //LuaStack* stack = engine->getLuaStack();
     //register_custom_function(stack->getLuaState());
-    
-	g_pApp = std::make_shared<BaseApp>();
-
-	if(!g_pApp || !g_pApp->init())
-	{
-		CCLOG("init app failed");
-		return false;
-	}
-	
-	auto scheduler = Director::getInstance()->getScheduler();
-	scheduler->scheduleUpdateForTarget(g_pApp.get(), 0, false);
+   
 
 #if CC_64BITS
     FileUtils::getInstance()->addSearchPath("src/64bit");
 #endif
     FileUtils::getInstance()->addSearchPath("src");
     FileUtils::getInstance()->addSearchPath("res");
+
+	g_pApp = std::make_shared<TotalWarsApp>();
+	if (!g_pApp || !g_pApp->init())
+	{
+		CCLOG("init app failed");
+		return false;
+	}
+
+	auto scheduler = Director::getInstance()->getScheduler();
+	scheduler->scheduleUpdateForTarget(g_pApp.get(), 0, false);
+
     if (engine->executeScriptFile("main.lua"))
     {
         return false;

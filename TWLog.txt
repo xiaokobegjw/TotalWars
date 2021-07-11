@@ -1,0 +1,76 @@
+
+
+-------------
+  Separator
+-------------
+
+======== Testing module TestRandom
+[PASS] testAllRandoms - 0ms
+======== Module TestRandom passed (0 failures / 1 tests) - 1ms
+======== Testing module TestSettings
+Test assertion failed: s.getEntry("np_terrain").is_group == true
+    at test_settings.cpp:176
+[FAIL] testAllSettings - 3ms
+======== Module TestSettings failed (1 failures / 1 tests) - 3ms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Unit Test Results: FAILED
+    1 / 2 failed modules (1 / 2 failed individual tests).
+    Testing took 4ms total.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+-------------
+  Separator
+-------------
+
+======== Testing module TestRandom
+[PASS] testAllRandoms - 0ms
+======== Module TestRandom passed (0 failures / 1 tests) - 1ms
+======== Testing module TestSettings
+Test assertion failed: s.getEntry("np_terrain").is_group == true
+    at test_settings.cpp:176
+[FAIL] testAllSettings - 36ms
+======== Module TestSettings failed (1 failures / 1 tests) - 36ms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Unit Test Results: FAILED
+    1 / 2 failed modules (1 / 2 failed individual tests).
+    Testing took 37ms total.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+-------------
+  Separator
+-------------
+
+======== Testing module TestRandom
+[PASS] testAllRandoms - 0ms
+======== Module TestRandom passed (0 failures / 1 tests) - 0ms
+======== Testing module TestSettings
+Test assertion failed: s.getEntry("np_terrain").is_group == true
+    at test_settings.cpp:176
+[FAIL] testAllSettings - 3ms
+======== Module TestSettings failed (1 failures / 1 tests) - 3ms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Unit Test Results: FAILED
+    1 / 2 failed modules (1 / 2 failed individual tests).
+    Testing took 4ms total.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+-------------
+  Separator
+-------------
+
+======== Testing module TestRandom
+[PASS] testAllRandoms - 0ms
+======== Module TestRandom passed (0 failures / 1 tests) - 0ms
+======== Testing module TestSettings
+Test assertion failed: s.getEntry("np_terrain").is_group == true
+    at test_settings.cpp:176
+[FAIL] testAllSettings - 4ms
+======== Module TestSettings failed (1 failures / 1 tests) - 4ms
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Unit Test Results: FAILED
+    1 / 2 failed modules (1 / 2 failed individual tests).
+    Testing took 4ms total.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
