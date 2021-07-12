@@ -143,6 +143,7 @@
     <ClInclude Include="Actors\Actor.h" />
     <ClInclude Include="BaseApp.h" />
     <ClInclude Include="components\component.h" />
+    <ClInclude Include="components\componentmanager.h" />
     <ClInclude Include="debug.h" />
     <ClInclude Include="eventmanager\concurrentqueue.h" />
     <ClInclude Include="eventmanager\EventManager.h" />
@@ -180,6 +181,7 @@
     <ClCompile Include="3rdParty\LuaPlus\LuaState_DumpObject.cpp" />
     <ClCompile Include="BaseApp.cpp" />
     <ClCompile Include="components\component.cpp" />
+    <ClCompile Include="components\componentmanager.cpp" />
     <ClCompile Include="debug.cpp" />
     <ClCompile Include="eventmanager\EventManager.cpp" />
     <ClCompile Include="eventmanager\EventManagerImpl.cpp" />

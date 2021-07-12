@@ -172,6 +172,9 @@
     <ClInclude Include="utils\hashedstring.h">
       <Filter>utils</Filter>
     </ClInclude>
+    <ClInclude Include="components\componentmanager.h">
+      <Filter>components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="debug.cpp" />
@@ -226,6 +229,9 @@
     </ClCompile>
     <ClCompile Include="utils\hashedstring.cpp">
       <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="components\componentmanager.cpp">
+      <Filter>components</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
