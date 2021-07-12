@@ -76,7 +76,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir);E:\projects\TotalWars\frameworks\cocos2d-x\external\lua\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\frameworks\cocos2d-x\external\lua\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -140,11 +140,14 @@
     <ClInclude Include="3rdParty\LuaPlus\LuaStateOutFile.h" />
     <ClInclude Include="3rdParty\LuaPlus\LuaStateOutString.h" />
     <ClInclude Include="3rdParty\LuaPlus\LuaTableIterator.h" />
+    <ClInclude Include="Actors\Actor.h" />
     <ClInclude Include="BaseApp.h" />
+    <ClInclude Include="components\component.h" />
     <ClInclude Include="debug.h" />
     <ClInclude Include="eventmanager\concurrentqueue.h" />
     <ClInclude Include="eventmanager\EventManager.h" />
     <ClInclude Include="eventmanager\EventManagerImpl.h" />
+    <ClInclude Include="eventmanager\Events.h" />
     <ClInclude Include="eventmanager\FastDelegate.h" />
     <ClInclude Include="eventmanager\FastDelegateBind.h" />
     <ClInclude Include="exceptions.h" />
@@ -162,6 +165,7 @@
     <ClInclude Include="settings.h" />
     <ClInclude Include="threading\mutex_auto_lock.h" />
     <ClInclude Include="unittest\test.h" />
+    <ClInclude Include="utils\hashedstring.h" />
     <ClInclude Include="utils\hex.h" />
     <ClInclude Include="utils\macros.h" />
     <ClInclude Include="utils\random_utils.h" />
@@ -175,9 +179,11 @@
     <ClCompile Include="3rdParty\LuaPlus\LuaPlusAddons.c" />
     <ClCompile Include="3rdParty\LuaPlus\LuaState_DumpObject.cpp" />
     <ClCompile Include="BaseApp.cpp" />
+    <ClCompile Include="components\component.cpp" />
     <ClCompile Include="debug.cpp" />
     <ClCompile Include="eventmanager\EventManager.cpp" />
     <ClCompile Include="eventmanager\EventManagerImpl.cpp" />
+    <ClCompile Include="eventmanager\Events.cpp" />
     <ClCompile Include="filesys.cpp" />
     <ClCompile Include="log.cpp" />
     <ClCompile Include="LUAScripting\LuaStateManager.cpp" />
@@ -187,6 +193,7 @@
     <ClCompile Include="math2d\vector2d.cpp" />
     <ClCompile Include="settings.cpp" />
     <ClCompile Include="unittest\test.cpp" />
+    <ClCompile Include="utils\hashedstring.cpp" />
     <ClCompile Include="utils\string_utils.cpp" />
     <ClCompile Include="utils\time_utils.cpp" />
   </ItemGroup>

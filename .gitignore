@@ -12,3 +12,11 @@ frameworks/runtime-src/proj.win32/TotalWars.VC.VC.opendb
 TWLog.txt
 simulator/win32/TotalWars.exe
 simulator/win32/TotalWars.ilk
+frameworks/cocos2d-x/cocos/2d/Debug.win32/
+frameworks/cocos2d-x/cocos/editor-support/spine/proj.win32/Debug.win32/libSpine.Build.CppClean.log
+frameworks/cocos2d-x/cocos/scripting/lua-bindings/proj.win32/Debug.win32/libluacocos2d/libluacocos2d.Build.CppClean.log
+frameworks/cocos2d-x/external/Box2D/proj.win32/Debug.win32/
+frameworks/cocos2d-x/external/recast/proj.win32/Debug.win32/
+frameworks/cocos2d-x/tools/simulator/libsimulator/proj.win32/Debug.win32/
+frameworks/cocos2d-x/cocos/scripting/lua-bindings/proj.win32/Debug.win32/
+frameworks/cocos2d-x/cocos/editor-support/spine/proj.win32/Debug.win32/

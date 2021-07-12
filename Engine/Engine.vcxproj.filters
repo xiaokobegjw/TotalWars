@@ -25,6 +25,12 @@
     <Filter Include="3rdParty\LuaPlus">
       <UniqueIdentifier>{2eed67b8-be89-4827-b7cf-6e90a4efebf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{7cb0a865-9649-4262-8165-613cbb240424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{28a31d98-83fb-414e-9e68-457286c9884c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\time_utils.h">
@@ -154,6 +160,18 @@
     <ClInclude Include="3rdParty\LuaPlus\LuaTableIterator.h">
       <Filter>3rdParty\LuaPlus</Filter>
     </ClInclude>
+    <ClInclude Include="eventmanager\Events.h">
+      <Filter>eventmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="Actors\Actor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="components\component.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\hashedstring.h">
+      <Filter>utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="debug.cpp" />
@@ -199,6 +217,15 @@
     </ClCompile>
     <ClCompile Include="3rdParty\LuaPlus\LuaState_DumpObject.cpp">
       <Filter>3rdParty\LuaPlus</Filter>
+    </ClCompile>
+    <ClCompile Include="eventmanager\Events.cpp">
+      <Filter>eventmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="components\component.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\hashedstring.cpp">
+      <Filter>utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

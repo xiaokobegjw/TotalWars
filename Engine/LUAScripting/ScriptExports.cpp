@@ -37,9 +37,6 @@ public:
 	// initialization
 	static bool Init(void);
 	static void Destroy(void);
-
-	// resource loading
-	static bool LoadAndExecuteScriptResource(const char* scriptResource);
 	
 	// actors
 	static int CreateActor(const char* actorArchetype, LuaPlus::LuaObject luaPosition, LuaPlus::LuaObject luaYawPitchRoll);
@@ -49,22 +46,11 @@ public:
 	static void RemoveEventListener(unsigned long listenerId);
 	static bool QueueEvent(EventType eventType, LuaPlus::LuaObject eventData);
 	static bool TriggerEvent(EventType eventType, LuaPlus::LuaObject eventData);
-	
-	// process system
-	static void AttachScriptProcess(LuaPlus::LuaObject scriptProcess);
-
-    // math
-    static float GetYRotationFromVector(LuaPlus::LuaObject vec3);
-    static float WrapPi(float wrapMe);
-    static LuaPlus::LuaObject GetVectorFromRotation(float angleRadians);
 
     // misc
     static void LuaLog(LuaPlus::LuaObject text);
     static unsigned long GetTickCount(void);
 
-	// physics
-	static void ApplyForce(LuaPlus::LuaObject normalDir, float force, int actorId);
-	static void ApplyTorque(LuaPlus::LuaObject axis, float force, int actorId);
 
 private:
 	static std::shared_ptr<ScriptEvent> BuildEvent(EventType eventType, LuaPlus::LuaObject& eventData);
@@ -287,6 +273,9 @@ void ScriptExports::Register(void)
 	// misc
 	globals.RegisterDirect("Log", &InternalScriptExports::LuaLog);
     globals.RegisterDirect("GetTickCount", &InternalScriptExports::GetTickCount);
+
+	globals.CreateTable("Event");
+	globals.CreateTable("EventType");
 }
 
 //---------------------------------------------------------------------------------------------------------------------

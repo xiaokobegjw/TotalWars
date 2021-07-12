@@ -7,6 +7,7 @@
 #include "LUAScripting/LuaStateManager.h"
 #include "LUAScripting/ScriptExports.h"
 #include "eventmanager/EventManagerImpl.h"
+#include "eventmanager/Events.h"
 
 std::shared_ptr<BaseApp> g_pApp = nullptr;
 FileLogOutput file_log_output;
@@ -33,6 +34,8 @@ bool BaseApp::init()
 		return false;
 
 	registerLuaFunc();
+
+	RegisterScriptEvents();
 
 	m_pEventManger = std::make_shared<EventManager>("GameCodeApp Event Mgr", true);
 	if (!m_pEventManger)
